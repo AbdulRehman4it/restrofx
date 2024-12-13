@@ -167,8 +167,8 @@ body{
 }
 
 .IconContainer2 {
-  width: 50px;
-  height: 30px;
+  width: 65px;
+  height: 40px;
   background: #BB0000;
   border-radius: 50px;
   display: flex;
@@ -211,3 +211,4 @@ body{
   transform: scale(0.95);
   transition-duration: 0.3s;
 }
+
