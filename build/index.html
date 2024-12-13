@@ -1,0 +1,728 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./assets/css/output.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title> Restro Fx</title>
+  <link rel="icon" type="image/x-icon" href="./assets/img/logo.png">
+</head>
+<body class="overflow-x-hidden">
+
+    <section class="">
+
+      <nav class="shadow-md px-5 py-4 xl:py-10 xl:px-16 lg:py-8 2xl:px-24">
+        <div class="flex justify-between items-center mx-auto">
+          <div class="flex items-center gap-14">
+            <!-- Logo -->
+            <div class="flex items-center">
+              <img src="./assets/img/logo.png" alt="Logo" class="h-10" />
+            </div>
+      
+            <!-- Navigation Links for Larger Screens -->
+            <ul class="hidden lg:flex 2xl:space-x-8 lg:space-x-6">
+              <li>
+                <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                  Accounts
+                  <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                  Platforms
+                  <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                  Instruments
+                  <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                  Payments
+                  <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                  Education
+                  <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                  Affiliate
+                  <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                  Journal
+                  <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+      
+          <!-- Buttons for Larger Screens -->
+          <div class="hidden lg:flex space-x-4 items-center">
+            <a href=""><img src="./assets/img/insta.png" alt=""></a>
+            <button class="bookmarkBtn">
+              <p class="text">Sign Up</p>
+              <span class="IconContainer">
+                <img src="./assets/img/Icon.png" alt="">
+              </span>
+            </button>
+          </div>
+      
+          <!-- Toggle Button for md and Smaller Screens -->
+          <div class="block lg:hidden">
+            <button id="burger-menu" class="text-[#BB0000]">
+              <span class="block w-6 h-0.5 bg-[#BB0000] mb-1"></span>
+              <span class="block w-6 h-0.5 bg-[#BB0000] mb-1"></span>
+              <span class="block w-6 h-0.5 bg-[#BB0000]"></span>
+            </button>
+          </div>
+        </div>
+      
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobile-menu" class="hidden space-y-4 mt-4 lg:hidden">
+          <ul class="space-y-2">
+            <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Accounts</a></li>
+            <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Platforms</a></li>
+            <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Instruments</a></li>
+            <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Payments</a></li>
+            <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Education</a></li>
+            <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Affiliate</a></li>
+            <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Journal</a></li>
+          </ul>
+          <div class="flex flex-col space-y-2">
+            <a href=""><img src="./assets/img/insta.png" alt=""></a>
+            <button class="px-4 py-2 bg-[#BB0000] text-white hover:bg-white hover:text-[#BB0000] border-2 hover:border-[#BB0000] rounded">Sign Up</button>
+          </div>
+        </div>
+      </nav>
+      
+      </section>
+      
+      
+      <!-- hero start -->
+<section class="relative w-full h-screen bg-cover bg-center" style="background-image: url('./assets/img/herobg.png');">
+    
+  </section>
+  <!-- logosectionstart -->
+  <section class="relative w-full h-screen bg-cover bg-center" style="background-image: url('./assets/img/herobelow.png');">
+    
+  </section>
+<!-- logosectionend -->
+ 
+       <!-- 3rdsectionstart -->
+ <section class="bg-gray-100 flex flex-col justify-center items-center px-5">
+    <!-- Heading -->
+    <h1 class="text-3xl md:text-5xl font-light text-center mb-4">
+      Live Markets <span class="text-[#BB0000] font-medium"> Insights</span>
+    </h1>
+  
+    <!-- Paragraph -->
+    <p class="text-lg md:text-xl text-center text-gray-700 mb-8">
+      Stay ahead with real-time data on forex, indices, crypto, and stocks – empowering your trading decisions.
+    </p>
+  
+    <!-- Tab Menu -->
+   
+  </section>
+
+
+<!-- Menu Tabs -->
+<div class="flex flex-col md:flex-row justify-center mb-6 md:space-x-4 space-y-4 md:space-y-0 px-5 2xl:pt-20 xl:pt-14 md:pt-12">
+  <button class="2xl:text-3xl text-lg bg-[#F4F6F7] hover:bg-[#BB0000] hover:text-white text-[#777777] px-6 py-2 rounded-full focus:text-white focus:bg-[#BB0000] "  onclick="showTabContent(1)">Currencies</button>
+  <button class="2xl:text-3xl text-lg text-[#777777] bg-[#F4F6F7] hover:bg-[#BB0000] hover:text-white focus:text-white focus:bg-[#BB0000] px-6 py-2 rounded-full"  onclick="showTabContent(2)">Indices</button>
+  <button class="2xl:text-3xl text-lg text-[#777777] bg-[#F4F6F7] hover:bg-[#BB0000] hover:text-white px-6 py-2 rounded-full focus:text-white focus:bg-[#BB0000] "  onclick="showTabContent(3)">Cryptocurrencies</button>
+  <button class="2xl:text-3xl text-lg text-[#777777] bg-[#F4F6F7] hover:bg-[#BB0000] hover:text-white px-6 py-2 rounded-full focus:text-white focus:bg-[#BB0000] "  onclick="showTabContent(4)">Stocks</button>
+</div>
+
+<!-- Tab Content -->
+<div id="tab-content" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-8 2xl:px-24 xl:px-20 lg:px-16 px-5 2xl:pb-48 xl:pb-36 md:pb-16 pb-8">
+  <div class="eur bg-white rounded-xl shadow-md hover:shadow-[#BB0000] px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="1">
+    <h1 class="xl:text-[32px] text-2xl text-[#777777]">EUR/AUD</h1>
+    <div class="flex justify-between">
+      <div>
+        <p class="text-lg text-[#777777]">BID</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Spread</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.00</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Ask</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+      </div>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="1">
+    <h1 class="xl:text-[32px] text-2xl text-[#777777]">GBP/USD</h1>
+    <div class="flex justify-between">
+      <div>
+        <p class="text-lg text-[#777777]">BID</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Spread</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.01</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Ask</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.05</h1>
+      </div>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="1">
+    <h1 class="xl:text-[32px] text-2xl text-[#777777]">USD/JPY</h1>
+    <div class="flex justify-between">
+      <div>
+        <p class="text-lg text-[#777777]">BID</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Spread</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Ask</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="2">
+    <h1 class="xl:text-[32px] text-2xl text-[#777777]">Wall Street</h1>
+    <div class="flex justify-between">
+      <div>
+        <p class="text-lg text-[#777777]">BID</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Spread</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.00</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Ask</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+      </div>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="2">
+    <h1 class="xl:text-[32px] text-2xl text-[#777777]">FTSE 100</h1>
+    <div class="flex justify-between">
+      <div>
+        <p class="text-lg text-[#777777]">BID</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Spread</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.01</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Ask</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.05</h1>
+      </div>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="2">
+    <h1 class="xl:text-[32px] text-2xl text-[#777777]">DAX</h1>
+    <div class="flex justify-between">
+      <div>
+        <p class="text-lg text-[#777777]">BID</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Spread</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Ask</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="3">
+    <h1 class="xl:text-[32px] text-2xl text-[#777777]">ETH</h1>
+    <div class="flex justify-between">
+      <div>
+        <p class="text-lg text-[#777777]">BID</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Spread</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.00</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Ask</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+      </div>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="3">
+    <h1 class="xl:text-[32px] text-2xl text-[#777777]">BNB</h1>
+    <div class="flex justify-between">
+      <div>
+        <p class="text-lg text-[#777777]">BID</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Spread</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.01</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Ask</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.05</h1>
+      </div>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="3">
+    <h1 class="xl:text-[32px] text-2xl text-[#777777]">BTC</h1>
+    <div class="flex justify-between">
+      <div>
+        <p class="text-lg text-[#777777]">BID</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Spread</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Ask</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="4">
+    <h1 class="xl:text-[32px] text-2xl text-[#777777]">Apple</h1>
+    <div class="flex justify-between">
+      <div>
+        <p class="text-lg text-[#777777]">BID</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Spread</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.00</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Ask</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+      </div>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="4">
+    <h1 class="xl:text-[32px] text-2xl text-[#777777]">Texla</h1>
+    <div class="flex justify-between">
+      <div>
+        <p class="text-lg text-[#777777]">BID</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Spread</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.01</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Ask</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.05</h1>
+      </div>
+    </div>
+  </div>
+  <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="4">
+    <h1 class="xl:text-[32px] text-2xl text-[#777777]">Samsung</h1>
+    <div class="flex justify-between">
+      <div>
+        <p class="text-lg text-[#777777]">BID</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Spread</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+      </div>
+      <div>
+        <p class="text-lg text-[#777777]">Ask</p>
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+        <!-- knowledge section -->
+<section class="bg-black">
+  <div class="w-full flex lg:flex-row flex-col 2xl:gap-52 xl:gap-36 gap-20 xl:py-24 py-12 lg:px-16 xl:px-24 px-5 pb-44">
+    <div class="lg:w-1/2">
+      <div>
+      <button class="text-[#BB0000] font-medium lg:text-[22px] text-base border-2 border-[#BB0000] xl:px-16 px-10 py-2 rounded-full hover:bg-white">Journals</button>
+    </div>
+    <div class="xl:pt-10 pt-4">
+    <h1 class="md:text-5xl text-3xl 2xl:text-6xl lg:text-4xl text-[#F4F6F7] font-light ">Your Trading <span class="text-[#BB0000] font-medium ">Knowledge Hub</span></h1>
+    <p class="text-white text-xl xl:text-2xl 2xl:text-3xl md:leading-[45px] leading-8 2xl:leading-[70px] xl:leading-[50px] lg:leading-[50px] font-light pt-4 ">Explore our comprehensive collection of trading journals designed to empower traders of all levels. From expert analysis and market trends to actionable strategies and technical guides, our resources help you stay ahead in the dynamic world of forex trading. Whether you're a beginner or a seasoned professional, our journals provide the knowledge you need to trade smarter and more confidently.</p>
+    </div>
+    <div class="xl:pt-20 pt-8">
+      <button class="bookmarkBtn1 pr-2" >
+        <p class="text1">Stay Informed</p>
+        <span class="IconContainer1">
+         <img src="./assets/img/Icon.png" alt="">
+        </span>  
+      </button>
+    </div>
+    </div>
+    <div class="lg:w-1/2 lg:pt-0 pt-10 lg:pb-44 ">
+      <img src="./assets/img/journalpic.png"> alt="">
+     <div class="flex justify-center">
+      <img src="./assets/img/PAgination.png" alt="">
+     </div>
+    </div>
+  </div>
+  
+</section>
+
+        <!-- forex image -->
+<div class="2xl:-mt-44 -mt-36">
+  <img src="./assets/img/forexlogo.png" alt="">
+</div>
+
+        <!-- account information -->
+<section>
+  <div class="xl:px-24 lg:px-16 px-5">
+  <div class="w-full flex flex-col lg:flex-row xl:gap-36 lg:gap-12 items-center">
+    <div class=" lg:w-3/5 pt-32 md:text-start text-center">
+      <h1 class="md:text-6xl text-4xl font-light">
+        Find your <span class="text-[#BB0000] font-medium">Ideal Account</span>
+      </h1>
+      <p class="text-lg leading-[40px] pt-6">
+        Explore a variety of personalized account options, each crafted to match different trading levels and styles. With Restro FX, you can opt for accounts that best cater to your trading goals, enhancing your journey with flexibility and tailored benefits.
+      </p>
+    </div>
+    <div class="lg:w-2/5 md:flex justify-center">
+      <img src="./assets/img/mobilepic.png" alt="">
+    </div>
+  </div>
+
+<div class="space-y-8 pt-8 md:pt-0">
+
+  <!-- premium accout -->
+
+  <div class="flex-col flex md:flex-row justify-between md:items-center md:gap-4  lg:gap-20 bg-white pl-10 py-2 pr-2 rounded-3xl "> 
+    <div>
+      <h1 class="xl:text-[32px] text-xl font-medium md:font-normal">Premium Account</h1>
+        <div class="flex-col flex md:flex-row 2xl:gap-24 xl:gap-16 md:gap-8 xl:pt-4 md:pt-2">
+        <div class="flex gap-4 items-center pt-2 md:pt-0">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal">Tight spreads from 0.7 pips</p>
+        </div>
+        <div class="flex gap-4 items-center pt-2 md:pt-0">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal">Priority market analyst support</p>
+        </div>
+        <div class="flex gap-4 items-center pt-2 md:pt-0">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal">Full suite of trading tools</p>
+        </div>
+      </div>
+      
+        <div class="flex gap-4 items-center md:pt-4 pt-2">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal">Minimum Deposit: $5,000</p>
+      </div>
+    </div>
+    <div class=" md:text-start text-center pt-4 md:pt-0">
+      <button class="bg-[#F4F6F7] hover:bg-[#BB0000] hover:text-white xl:px-14 md:px-6 xl:py-20 md:py-6 px-8 py-2 rounded-xl text-lg font-medium">Sign Up</button>
+    </div>
+  </div>
+
+  <!-- elite account -->
+
+  <div class="flex-col flex md:flex-row justify-between md:items-center md:gap-4 lg:gap-0 bg-white pl-10 py-2 pr-2 rounded-3xl "> 
+    <div>
+      <h1 class="xl:text-[32px] text-xl font-medium md:font-normal">Elite Account</h1>
+        <div class="flex-col flex md:flex-row 2xl:gap-24 xl:gap-16 md:gap-8 xl:pt-4 md:pt-2">
+        <div class="flex gap-4 items-center pt-2 md:pt-0">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal">Ultra-low spreads from 0.3 pips</p>
+        </div>
+        <div class="flex gap-4 items-center pt-2 md:pt-0">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal">Exclusive account manager services</p>
+        </div>
+        <div class="flex gap-4 items-center pt-2 md:pt-0">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal">VIP access to webinars and events</p>
+        </div>
+      </div>
+      
+        <div class="flex gap-4 items-center md:pt-4 pt-2">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal">Tight spreads from 0.7 pips</p>
+      </div>
+    </div>
+    <div class=" md:text-start text-center pt-4 md:pt-0">
+      <button class="bg-[#F4F6F7] hover:bg-[#BB0000] hover:text-white xl:px-14 md:px-6 xl:py-20 md:py-6 px-8 py-2 rounded-xl text-lg font-medium">Sign Up</button>
+    </div>
+  </div>
+
+  <!-- vip account -->
+
+  <div class="flex-col flex md:flex-row justify-between md:items-center md:gap-4 lg:gap-0 bg-white pl-10 py-2 pr-2 rounded-3xl "> 
+    <div>
+      <h1 class="xl:text-[32px] text-xl font-medium md:font-normal">VIP Account</h1>
+        <div class="flex-col flex md:flex-row 2xl:gap-24 xl:gap-16 md:gap-8 xl:pt-4 md:pt-2">
+        <div class="flex gap-4 items-center pt-2 md:pt-0">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal">Near-zero spreads from 0.1 pips</p>
+        </div>
+        <div class="flex gap-4 items-center pt-2 md:pt-0">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal">Dedicated team of trading experts</p>
+        </div>
+        <div class="flex gap-4 items-center pt-2 md:pt-0">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal">Personalized trading strategies</p>
+        </div>
+      </div>
+      
+        <div class="flex gap-4 items-center md:pt-4 pt-2">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal">Minimum Deposit: $50,00</p>
+      </div>
+    </div>
+    <div class=" md:text-start text-center pt-4 md:pt-0">
+      <button class="bg-[#F4F6F7] hover:bg-[#BB0000] hover:text-white xl:px-14 md:px-6 xl:py-20 md:py-6 px-8 py-2 rounded-xl text-lg font-medium">Sign Up</button>
+    </div>
+  </div>
+
+  </div>
+
+</section>
+
+        <!-- features section -->
+<section>
+  <div class="text-center pt-32 px-5 lg:px-16">
+    <h1 class="xl:text-6xl md:text-4xl text-3xl font-light"><span class="text-[#BB0000] font-medium">Powerful Features </span> for Seamless Copy Trading</h1>
+    <p class="text-lg font-normal text-[#010109] leading-[40px] pt-4">Unlock the full potential of copy trading with our cutting-edge features. Designed for both traders and followers, our platform offers advanced <br class="hidden xl:block"> tools and analytics to maximize your trading experience. Whether you're looking to manage risk, track performance, or automate your trades, <br class="hidden xl:block"> we’ve got everything you need to succeed in the fast-paced world of online trading.</p>
+  </div>
+</section>
+
+        <!-- card section -->
+        <section class="py-20 xl:px-24 lg:px-14 md:px-10 px-5">
+          <div class="space-y-8">
+  
+              <div class="w-full flex lg:flex-row flex-col gap-10">
+  <!-- ist card -->
+                  <div class="lg:w-1/2 w-full bg-black xl:rounded-[40px] md:rounded-[40px] lg:rounded-[30px] rounded-[20px]">
+                      <div class="md:px-12 lg:px-8 xl:px-12 px-5 md:pt-12 lg:pt-6 xl:pt-12 pt-5">
+                      <h1 class="text-[#BB0000] md:text-3xl lg:text-2xl text-xl font-medium">Advanced Copy Trading Mechanism</h1>
+                      <p class="text-white md:text-lg lg:text-base xl:text-lg text-base font-normal pt-2 md:leading-8 leading-6">Easily sync trades between master and child accounts with support for Forex, Crypto, and Stocks. Enjoy real-time execution, flexible profit-sharing, and built-in risk management for secure and efficient trading.</p>
+                  </div>
+                      <div class="flex justify-end md:pt-28 xl:pt-[180px] 2xl:pt-48 pt-14 pl-20 xl:pl-28 2xl:pl-36">
+                          <img src="./assets/img/homecardimg.png" class="img-fluid w-full xl:h-[420px] xl:rounded-br-[40px] md:rounded-br-[40px] lg:rounded-br-[30px] rounded-br-[20px]" alt="">
+                      </div>
+                  </div>
+  <!-- 2nd card -->
+                  <div class="lg:w-1/2 w-full bg-white shadow-2xl xl:rounded-[40px] md:rounded-[40px] lg:rounded-[30px] rounded-[20px]">
+                      <div class="pl-44 flex justify-end pt-12 lg:pt-8 xl:pt-12">
+                          <img src="./assets/img/2ndcardimg.png" class="img-fluid" alt="">
+                      </div>
+                      <div class="md:px-12 lg:px-8 xl:px-12 px-5 md:pt-44 lg:pt-28 xl:pt-40 pt-16 pb-8 leading-9">
+                      <h1 class="text-black md:text-3xl lg:text-2xl text-xl font-medium">Robust Risk Management Tools</h1>
+                      <p class="text-black md:text-lg lg:text-base xl:text-lg text-base md:leading-8 leading-6 pt-2">Protect your investments with customizable stop-loss, exposure limits, and risk analysis tools. Get alerts for high-risk strategies and diversify your portfolio for safer trading.</p>
+                  </div>
+                  </div>
+  
+              </div>
+              <div class="w-full flex lg:flex-row flex-col gap-10">
+  <!-- 3rd card -->
+                  <div class="lg:w-1/2 w-full bg-white shadow-2xl xl:rounded-[40px] md:rounded-[40px] lg:rounded-[30px] rounded-[20px]">
+                      <div class="pl-44 flex justify-end pt-12 lg:pt-8 xl:pt-12">
+                          <img src="./assets/img/2ndcardimg.png" class="img-fluid " alt="">
+                      </div>
+                      <div class="md:px-12 lg:px-8 xl:px-12 px-5 md:pt-44 lg:pt-28 xl:pt-40 pt-16 pb-8 leading-9">
+                      <h1 class="text-black md:text-3xl lg:text-2xl text-xl font-medium">Seamless Integration & Scalability</h1>
+                      <p class="text-black md:text-lg lg:text-base xl:text-lg text-base md:leading-8 leading-6 pt-2">Integrate with brokers via APIs, support multiple currencies, and scale effortlessly for large user bases. Benefit from secure, encrypted data handling and automatic updates for optimal performance.</p>
+                  </div>
+                  </div>
+  <!-- 4th card -->
+                  <div class="lg:w-1/2 w-full bg-black xl:rounded-[40px] md:rounded-[40px] lg:rounded-[30px] rounded-[20px]">
+                      <div class="md:px-12 lg:px-8 xl:px-12 px-5 md:pt-12 lg:pt-6 xl:pt-12 pt-5">
+                      <h1 class="text-[#BB0000] md:text-3xl lg:text-2xl text-xl font-medium">Comprehensive Analytics Dashboard</h1>
+                      <p class="text-white md:text-lg lg:text-base xl:text-lg text-base font-normal pt-2 md:leading-8 leading-6">Track performance with ROI insights, trade history, and financial reports. Use comparative analysis and interactive graphs to refine strategies and monitor engagement.</p>
+                  </div>
+                      <div class="flex justify-end md:pt-28 lg:pt-[150px] xl:pt-56 2xl:pt-36 pt-14 pl-20 xl:pl-28 2xl:pl-36">
+                          <img src="./assets/img/homecardimg.png" class="img-fluid w-full xl:h-[410px] 2xl:h-[490px] xl:rounded-br-[40px] md:rounded-br-[40px] lg:rounded-br-[30px] rounded-br-[20px]" alt="">
+                      </div>
+                  </div>
+                
+              </div>
+          </div>
+      </section>
+  
+        <!-- plan section -->
+<section class="bg-black xl:px-24 lg:px-16 md:px-5">
+  <div class="text-center py-28 px-5 md:px-0">
+    <div>
+      <button class="text-[#BB0000] 2xl:text-[22px] md:text-lg font-medium border-2 border-[#BB0000] px-8 py-3 rounded-full hover:bg-white">Affiliation & Subscription</button>
+    </div>
+    <h1 class="text-white xl:text-6xl lg:text-5xl text-4xl leading-10 lg:leading-[60px] xl:leading-[70px] font-light pt-6">Start Trading Smarter with Our Simple <span class="text-[#BB0000] font-medium">Signup Options</span> </h1>
+    <p class="text-white 2xl:text-3xl xl:text-2xl md:text-xl text-lg font-light 2xl:leading-[70px] xl:leading-[50px]  md:leading-[54px] leading-[45px] pt-6">Explore our comprehensive collection of trading journals designed to empower traders of all levels. From expert <br class="hidden 2xl:block"> analysis and market trends to actionable strategies and technical guides, our resources help you stay ahead in <br class="hidden 2xl:block"> the dynamic world of forex trading. Whether you're a beginner or a seasoned professional, our journals provide <br class="hidden 2xl:block"> the knowledge you need to trade smarter and more confidently.</p>
+  </div>
+
+  <div class="flex md:flex-row flex-col justify-between bg-[#08080E] rounded-3xl items-center xl:px-10 lg:px-4 md:px-4 px-2 py-10">
+
+    <div class="md:space-y-6 2xl:space-y-12 space-y-4 text-center md:text-start">
+      <h1 class="text-[#BB0000] 2xl:text-[32px] xl:text-2xl text-lg font-medium">Plan Type</h1>
+      <p class="text-white 2xl:text-[22px] 2xl:text-xl  text-base font-normal">Free Signup</p>
+      <p class="text-white 2xl:text-[22px] 2xl:text-xl text-base font-normal">Affiliate Program</p>
+      <p class="text-white 2xl:text-[22px] 2xl:text-xl text-base font-normal">Premium Subscription</p>
+    </div>
+
+    <div class="space-y-4 md:space-y-6 2xl:space-y-12 text-center md:text-start pt-8 md:pt-0">
+      <h1 class="text-[#BB0000]  2xl:text-[32px] xl:text-2xl md:text-lg text-xl font-medium">Benefits</h1>
+      <p class="text-white 2xl:text-[22px] text-base font-normal">Get started instantly with essential tools <br class="md:block xl:hidden">and real-time market data. Perfect for new traders.</p>
+      <p class="text-white 2xl:text-[22px] text-base font-normal">Earn commissions with every referral and track <br class="md:block xl:hidden"> your performance with our affiliate dashboard.</p>
+      <p class="text-white 2xl:text-[22px] text-base font-normal">Access advanced analytics, priority support, <br class="md:block xl:hidden">and exclusive tools for professional trading.</p>
+    
+    </div>
+
+    <div class=" pt-8 md:pt-0 text-center md:text-start">
+      <h1 class="text-[#BB0000]  2xl:text-[32px] xl:text-2xl md:text-lg text-xl  font-medium">Action</h1>
+      <div class="flex md:flex-col flex-row gap-4 md:gap-0 2xl:pt-8 pt-4 md:space-y-6 2xl:space-y-8">
+      <div>
+        <button class="bookmarkBtn">
+          <p class="text">Sign Up</p>
+          <span class="IconContainer">
+           <img src="./assets/img/Icon.png" alt="">
+          </span>
+          
+        </button>
+        
+      </div>
+      <div>
+        <button class="bookmarkBtn">
+          <p class="text">Sign Up</p>
+          <span class="IconContainer">
+           <img src="./assets/img/Icon.png" alt="">
+          </span>
+          
+        </button>
+      </div>
+      <div>
+        <button class="bookmarkBtn">
+          <p class="text">Sign Up</p>
+          <span class="IconContainer">
+           <img src="./assets/img/Icon.png" alt="">
+          </span>
+          
+        </button>
+      </div>
+    </div>
+  </div>
+    
+  </div>
+
+  <div class="pt-14 pb-36">
+    <img src="./assets/img/formimg.png" alt="">
+  </div>
+</section>
+
+
+<footer>
+  <div class="bg-white 2xl:px-24 md:px-10 px-5 py-10">
+    <div class="flex lg:flex-row flex-col items-center justify-between text-center lg:text-start">
+      <div>
+        <img src="./assets/img/footerlogo.png" alt="">
+      </div>
+      <div class="space-x-6 pt-5 lg:pt-0">
+        <a class="text-18 font-medium hover:underline" href="">Support</a>
+        <a class="text-18 font-medium hover:underline" href="">Terms of services</a>
+        <a class="text-18 font-medium hover:underline" href="">Risk Disclosure</a>
+        <a class="text-18 font-medium hover:underline" href="">Cookies Policy</a>
+      </div>
+      <div>
+        <p class="pt-2 lg:pt-0">© 2024 Restro Fx</p>
+      </div>
+    </div>
+    <div class="pt-8 text-center lg:text-start 2xl:text-sm text-xs 2xl:leading-[30px] leading-[20px]">
+      <p>This website is not directed towards any specific jurisdiction and is not intended for use in violation of any local laws or regulations.</p>
+      <p>Risk Warning: Trading leveraged products such as forex, commodities, and CFDs involves a high level of risk and may not be suitable for all investors. These products can lead to losses that exceed your initial deposit. Ensure that you fully understand the risks associated with trading, taking into consideration your investment objectives and experience level. If necessary, seek independent financial advice before engaging in any trading activity.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<!-- navbar -->
+
+<script>
+  // Get references to the button and the mobile menu
+  const burgerMenu = document.getElementById("burger-menu");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  // Toggle mobile menu visibility on button click
+  burgerMenu.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+</script>
+
+
+  <script>
+    // Tab functionality
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabContent = document.querySelectorAll('#tab-content > div');
+  
+    tabButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        // Update tab button styles
+        tabButtons.forEach((btn) => {
+          btn.classList.remove('bg-[#BB0000]', 'text-white');
+          btn.classList.add('bg-gray-200', 'text-[#BB0000]');
+        });
+        button.classList.remove('bg-gray-200', 'text-[#BB0000]');
+        button.classList.add('bg-[#BB0000]', 'text-white');
+  
+        // Show/Hide tab content
+        const targetTab = button.getAttribute('data-tab');
+        tabContent.forEach((content) => {
+          if (content.getAttribute('data-tab') === targetTab) {
+            content.classList.remove('hidden');
+          } else {
+            content.classList.add('hidden');
+          }
+        });
+      });
+    });
+  </script>
+  
+  <!-- 3rdsectionend -->
+
+
+  <script>
+    function showTabContent(tabNumber) {
+      const allContent = document.querySelectorAll('[data-tab]');
+      allContent.forEach(content => {
+        if (parseInt(content.getAttribute('data-tab')) === tabNumber) {
+          content.classList.remove('hidden');
+        } else {
+          content.classList.add('hidden');
+        }
+      });
+    }
+
+    // Default to show Menu 1 content
+    showTabContent(1);
+  </script>
+
+
+  
+</body>
+</html>
