@@ -635,6 +635,10 @@ video {
   width: 0px;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -707,6 +711,10 @@ video {
   gap: 5rem;
 }
 
+.gap-24 {
+  gap: 6rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -729,6 +737,12 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2rem * var(--tw-space-x-reverse));
+  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
@@ -912,6 +926,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-44 {
+  padding-top: 11rem;
+  padding-bottom: 11rem;
+}
+
 .py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
@@ -942,12 +961,20 @@ video {
   padding-left: 5rem;
 }
 
+.pl-24 {
+  padding-left: 6rem;
+}
+
 .pl-44 {
   padding-left: 11rem;
 }
 
 .pr-2 {
   padding-right: 0.5rem;
+}
+
+.pr-20 {
+  padding-right: 5rem;
 }
 
 .pt-10 {
@@ -1013,6 +1040,11 @@ video {
   line-height: 2.5rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1071,6 +1103,10 @@ video {
 
 .leading-\[45px\] {
   line-height: 45px;
+}
+
+.leading-\[92px\] {
+  line-height: 92px;
 }
 
 .text-\[\#010109\] {
@@ -1274,6 +1310,66 @@ body{
 }
 
 .bookmarkBtn1:active {
+  transform: scale(0.95);
+  transition-duration: 0.3s;
+}
+
+.bookmarkBtn2 {
+  width: 260px;
+  height: 50px;
+  border-radius: 40px;
+  border: 1px solid #BB0000;
+  background-color:#BB0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+}
+
+.IconContainer2 {
+  width: 50px;
+  height: 30px;
+  background: #BB0000;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 2;
+  transition-duration: 0.3s;
+}
+
+.icon {
+  border-radius: 1px;
+}
+
+.text2 {
+  height: 100%;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 1;
+  transition-duration: 0.3s;
+  font-size: 18px;
+}
+
+.bookmarkBtn2:hover .IconContainer2 {
+  width: 90px;
+  transition-duration: 0.3s;
+}
+
+.bookmarkBtn2:hover .text2 {
+  transform: translate(10px);
+  width: 0;
+  font-size: 0;
+  transition-duration: 0.3s;
+}
+
+.bookmarkBtn2:active {
   transform: scale(0.95);
   transition-duration: 0.3s;
 }

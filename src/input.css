@@ -149,3 +149,65 @@ body{
   transform: scale(0.95);
   transition-duration: 0.3s;
 }
+
+
+
+.bookmarkBtn2 {
+  width: 260px;
+  height: 50px;
+  border-radius: 40px;
+  border: 1px solid #BB0000;
+  background-color:#BB0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+}
+
+.IconContainer2 {
+  width: 50px;
+  height: 30px;
+  background: #BB0000;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 2;
+  transition-duration: 0.3s;
+}
+
+.icon {
+  border-radius: 1px;
+}
+
+.text2 {
+  height: 100%;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 1;
+  transition-duration: 0.3s;
+  font-size: 18px;
+}
+
+.bookmarkBtn2:hover .IconContainer2 {
+  width: 90px;
+  transition-duration: 0.3s;
+}
+
+.bookmarkBtn2:hover .text2 {
+  transform: translate(10px);
+  width: 0;
+  font-size: 0;
+  transition-duration: 0.3s;
+}
+
+.bookmarkBtn2:active {
+  transform: scale(0.95);
+  transition-duration: 0.3s;
+}
