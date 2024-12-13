@@ -631,6 +631,10 @@ video {
   height: 100vh;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-0 {
   width: 0px;
 }
@@ -643,32 +647,20 @@ video {
   width: 1.5rem;
 }
 
+.w-\[15\%\] {
+  width: 15%;
+}
+
 .w-full {
   width: 100%;
 }
 
-.w-\[\] {
-  width: ;
+.w-2 {
+  width: 0.5rem;
 }
 
-.w-\[50\] {
-  width: 50;
-}
-
-.w-\[50\%\] {
-  width: 50%;
-}
-
-.w-\[20\] {
-  width: 20;
-}
-
-.w-\[20\%\] {
-  width: 20%;
-}
-
-.w-\[15\%\] {
-  width: 15%;
+.w-1\/4 {
+  width: 25%;
 }
 
 .grid-cols-1 {
@@ -723,8 +715,16 @@ video {
   gap: 1.5rem;
 }
 
-.gap-3 {
-  gap: 0.75rem;
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-7 {
+  gap: 1.75rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -779,12 +779,20 @@ video {
   border-radius: 20px;
 }
 
+.rounded-\[30px\] {
+  border-radius: 30px;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-\[60px\] {
+  border-radius: 60px;
 }
 
 .rounded-br-\[20px\] {
@@ -803,6 +811,11 @@ video {
 .bg-\[\#08080E\] {
   --tw-bg-opacity: 1;
   background-color: rgb(8 8 14 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#12121D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 18 29 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[\#BB0000\] {
@@ -835,19 +848,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[12121D\] {
-  background-color: 12121D;
-}
-
-.bg-\[\#12121D\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(18 18 29 / var(--tw-bg-opacity, 1));
-}
-
 .bg-cover {
   background-size: cover;
 }
@@ -864,6 +864,11 @@ video {
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px-4 {
@@ -936,9 +941,29 @@ video {
   padding-bottom: 1.75rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.px-96 {
+  padding-left: 24rem;
+  padding-right: 24rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.px-80 {
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .pb-36 {
@@ -1017,12 +1042,32 @@ video {
   padding-top: 2rem;
 }
 
-.text-center {
-  text-align: center;
+.pt-9 {
+  padding-top: 2.25rem;
 }
 
-.align-middle {
-  vertical-align: middle;
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pb-48 {
+  padding-bottom: 12rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-2xl {
@@ -1107,6 +1152,10 @@ video {
 
 .leading-\[92px\] {
   line-height: 92px;
+}
+
+.leading-\[\] {
+  line-height: ;
 }
 
 .text-\[\#010109\] {
@@ -1370,6 +1419,128 @@ body{
 }
 
 .bookmarkBtn2:active {
+  transform: scale(0.95);
+  transition-duration: 0.3s;
+}
+
+.bookmarkBtn3 {
+  width: 268px;
+  height: 50px;
+  border-radius: 40px;
+  border: 1px solid #BB0000;
+  background-color:#BB0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  padding-left: 10px;
+}
+
+.IconContainer3 {
+  width: 65px;
+  height: 40px;
+  background: #BB0000;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 2;
+  transition-duration: 0.3s;
+}
+
+.icon {
+  border-radius: 1px;
+}
+
+.text3 {
+  height: 100%;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 1;
+  transition-duration: 0.3s;
+  font-size: 18px;
+}
+
+.bookmarkBtn3:hover .IconContainer3 {
+  width: 90px;
+  transition-duration: 0.3s;
+}
+
+.bookmarkBtn3:hover .text3 {
+  transform: translate(10px);
+  width: 0;
+  font-size: 0;
+  transition-duration: 0.3s;
+}
+
+.bookmarkBtn3:active {
+  transform: scale(0.95);
+  transition-duration: 0.3s;
+}
+
+.bookmarkBtn4 {
+  width: 210px;
+  height: 50px;
+  border-radius: 40px;
+  border: 1px solid #BB0000;
+  background-color:#BB0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  padding-left: 10px;
+}
+
+.IconContainer4 {
+  width: 65px;
+  height: 40px;
+  background: #BB0000;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 2;
+  transition-duration: 0.3s;
+}
+
+.icon {
+  border-radius: 1px;
+}
+
+.text4 {
+  height: 100%;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 1;
+  transition-duration: 0.3s;
+  font-size: 18px;
+}
+
+.bookmarkBtn4:hover .IconContainer4 {
+  width: 90px;
+  transition-duration: 0.3s;
+}
+
+.bookmarkBtn4:hover .text4 {
+  transform: translate(10px);
+  width: 0;
+  font-size: 0;
+  transition-duration: 0.3s;
+}
+
+.bookmarkBtn4:active {
   transform: scale(0.95);
   transition-duration: 0.3s;
 }
@@ -1881,6 +2052,11 @@ body{
     line-height: 2rem;
   }
 
+  .xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
   .xl\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
@@ -1898,21 +2074,6 @@ body{
   .xl\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .xl\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .xl\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .xl\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .xl\:leading-\[50px\] {
@@ -1998,6 +2159,11 @@ body{
     padding-top: 2rem;
   }
 
+  .\32xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .\32xl\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -2031,11 +2197,6 @@ body{
     line-height: 1.75rem;
   }
 
-  .\32xl\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
   .\32xl\:leading-\[30px\] {
     line-height: 30px;
   }
@@ -2044,4 +2205,5 @@ body{
     line-height: 70px;
   }
 }
+
 

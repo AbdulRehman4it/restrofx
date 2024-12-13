@@ -212,3 +212,131 @@ body{
   transition-duration: 0.3s;
 }
 
+
+
+.bookmarkBtn3 {
+  width: 268px;
+  height: 50px;
+  border-radius: 40px;
+  border: 1px solid #BB0000;
+  background-color:#BB0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  padding-left: 10px;
+  
+}
+
+.IconContainer3 {
+  width: 65px;
+  height: 40px;
+  background: #BB0000;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 2;
+  transition-duration: 0.3s;
+}
+
+.icon {
+  border-radius: 1px;
+}
+
+.text3 {
+  height: 100%;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 1;
+  transition-duration: 0.3s;
+  font-size: 18px;
+}
+
+.bookmarkBtn3:hover .IconContainer3 {
+  width: 90px;
+  transition-duration: 0.3s;
+}
+
+.bookmarkBtn3:hover .text3 {
+  transform: translate(10px);
+  width: 0;
+  font-size: 0;
+  transition-duration: 0.3s;
+}
+
+.bookmarkBtn3:active {
+  transform: scale(0.95);
+  transition-duration: 0.3s;
+}
+
+
+.bookmarkBtn4 {
+  width: 210px;
+  height: 50px;
+  border-radius: 40px;
+  border: 1px solid #BB0000;
+  background-color:#BB0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  padding-left: 10px;
+  
+}
+
+.IconContainer4 {
+  width: 65px;
+  height: 40px;
+  background: #BB0000;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 2;
+  transition-duration: 0.3s;
+}
+
+.icon {
+  border-radius: 1px;
+}
+
+.text4 {
+  height: 100%;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 1;
+  transition-duration: 0.3s;
+  font-size: 18px;
+}
+
+.bookmarkBtn4:hover .IconContainer4 {
+  width: 90px;
+  transition-duration: 0.3s;
+}
+
+.bookmarkBtn4:hover .text4 {
+  transform: translate(10px);
+  width: 0;
+  font-size: 0;
+  transition-duration: 0.3s;
+}
+
+.bookmarkBtn4:active {
+  transform: scale(0.95);
+  transition-duration: 0.3s;
+}
+
+
