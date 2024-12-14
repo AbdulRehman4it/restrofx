@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/output.css">
     <link rel="stylesheet" href="../src/input.css">
-    <title>Document</title>
+    <title>Widthdraw</title>
 </head>
 <body>
     <section>
@@ -109,32 +109,32 @@
     
 </section>
 
-<section  class="bg-black xl:px-24 lg:px-16 md:px-5">
-    <div class="text-center py-20 px-5 md:px-0">
+<section  class="bg-black xl:px-24 lg:px-10 md:px-5 sm:items-center">
+    <div class="text-center py-20 px-5 md:px-0 ">
         
         <h1 class="text-white xl:text-5xl lg:text-5xl text-4xl leading-10 lg:leading-[60px] xl:leading-[70px] font-light pt-6"><span class="text-[#BB0000] font-medium">Secure and Flexible </span>Payment Methods  </h1>
         <p class="text-white 2xl:text-2xl xl:text-base md:text-sm text-lg font-light 2xl:leading-[70px] xl:leading-[50px]  md:leading-[54px] leading-[45px] pt-6">Easily access your funds with a range of secure payment options that tailor to your convenience. Choose from various methods <br> to ensure a seamless withdrawal process tailored to your preferences and needs.</p>
       </div>
-      <div class="flex gap-4 justify-center pb-8">
-        <div class="text-white bg-[#12121D] px-3 py-3 rounded-xl w-[18%] text-center">
+      <div class="flex md:flex-row flex-col gap-4 justify-center items-center pb-8">
+        <div class="text-white bg-[#12121D] px-3 py-3 rounded-xl md:w-[18%] w-[50%]  text-center">
            <div class="flex justify-center pb-2">
             <img src="./assets/img/banktranfer.png" alt="">
            </div>
             <h1>Bank Trasssssfr</h1>
         </div>
-        <div class="text-white bg-[#12121D] px-3 py-3 rounded-xl w-[18%] text-center">
+        <div class="text-white bg-[#12121D] px-3 py-3 rounded-xl md:w-[18%] w-[50%] text-center">
             <div class="flex justify-center pb-2">
                 <img src="./assets/img/creditcard.png" alt="">
             </div>
             <h1>Credit/Debit Cards</h1>
         </div>
-        <div class="text-white bg-[#12121D] px-3 py-3 rounded-xl w-[18%] text-center">
+        <div class="text-white bg-[#12121D] px-3 py-3 rounded-xl md:w-[18%] w-[50%] text-center">
             <div class="flex justify-center pb-2">
             <img src="./assets/img/ewallet.png" alt="">
         </div>
             <h1>E-Wallets</h1>
         </div>
-        <div class="text-white bg-[#12121D] px-3 py-3 rounded-xl w-[18%] text-center">
+        <div class="text-white bg-[#12121D] px-3 py-3 rounded-xl md:w-[18%] w-[50%] text-center">
           <div class="flex justify-center pb-2">
             <img src="./assets/img/crypto.png" alt="">
           </div>
@@ -144,22 +144,91 @@
 </section>
 
 <section>
-    <div class="flex">
-        <div class="w-[50%]">
-            <h1 class="xl:text-5xl md:text-3xl text-3xl font-light leading-tight"> Customize Your Fee <span class="text-[#BB0000] font-medium"> <br> Calculations Effortlessly</span>  </h1>
-            <p class="text-sm font-normal text-[#010109] leading-[40px] pt-4">Understanding the fees associated with withdrawing funds is crucial for effective money <br> management. Our fee calculator simplifies this process by providing real-time, accurate <br> estimates based on your selected payment method and currency. </p>
-            <p class="text-sm font-normal text-[#010109] leading-[40px] pt-4">Whether you're withdrawing via bank transfer, credit card, or cryptocurrency, you can see all <br> associated fees upfront, eliminating surprises and ensuring you make the best choices for <br> your financial needs.</p>
+    <div class="flex gap-4 lg:flex-row flex-col xl:px-24 md:px-10 px-5 lg:px-10 py-8 lg:pt-36 pt-10 items-center ">
+        <div class="lg:w-[50%] w-full ">
+            <h1 class="2xl:text-6xl md:text-3xl text-3xl font-light 2xl:leading-[92px] md:text-start text-center"> Customize Your Fee <span class="text-[#BB0000] font-medium"> <br class="md:hidden block"> Calculations Effortlessly</span>  </h1>
+            <p class="text-base font-normal text-[#010109] 2xl:leading-[40px] leading-8 pt-4 2xl:text-xl">Understanding the fees associated with withdrawing funds is crucial for effective money <br> management. Our fee calculator simplifies this process by providing real-time, accurate <br> estimates based on your selected payment method and currency. </p>
+            <p class="text-base font-normal text-[#010109] leading-[40px] pt-4 2xl:text-xl">Whether you're withdrawing via bank transfer, credit card, or cryptocurrency, you can see all <br> associated fees upfront, eliminating surprises and ensuring you make the best choices for <br> your financial needs.</p>
         </div>
-        <div class="w-[50%]">
-<img src="./assets/img/form.png" alt="">
+        <div class="lg:w-[50%] w-full">
+          <div class=" min-h-screen flex items-center justify-center  ">
+            <!-- Form Container -->
+            <div class="bg-white shadow-lg rounded-[30px] w-full max-w-2xl ">
+              <!-- Header -->
+              <div class="bg-black text-white text-lg md:text-2xl font-semibold rounded-[30px] px-6 py-4">
+                Estimate Your Withdrawal Fees
+              </div>
+          
+              <!-- Form -->
+              <div class="p-4 md:p-6">
+                <!-- Withdrawal Amount -->
+                <div class="mb-6">
+                  <label class="block text-gray-700 font-medium mb-2 text-sm md:text-base" for="amount">
+                    Enter Withdrawal Amount
+                  </label>
+                  <input
+                    type="number"
+                    id="amount"
+                    placeholder="2000"
+                    class="w-full px-4 py-2 md:py-3 border rounded-md bg-gray-100 text-gray-700 focus:outline-none focus:ring-2 focus:ring-red-500"
+                  />
+                </div>
+          
+                <!-- Payment Method -->
+                <div class="mb-6">
+                  <label class="block text-gray-700 font-medium mb-2 text-sm md:text-base" for="payment-method">
+                    Select Payment Method
+                  </label>
+                  <select
+                    id="payment-method"
+                    class="w-full px-4 py-2 md:py-3 border rounded-md bg-gray-100 text-gray-700 focus:outline-none focus:ring-2 focus:ring-red-500"
+                  >
+                    <option>Bank Transfer</option>
+                    <option>Credit Card</option>
+                    <option>PayPal</option>
+                  </select>
+                </div>
+          
+                <!-- Currency -->
+                <div class="mb-6">
+                  <label class="block text-gray-700 font-medium mb-2 text-sm md:text-base" for="currency">
+                    Select Currency
+                  </label>
+                  <select
+                    id="currency"
+                    class="w-full px-4 py-2 md:py-3 border rounded-md bg-gray-100 text-gray-700 focus:outline-none focus:ring-2 focus:ring-red-500"
+                  >
+                    <option>USD</option>
+                    <option>EUR</option>
+                    <option>GBP</option>
+                  </select>
+                </div>
+          
+                <!-- Calculate Fees Button -->
+                <div class="flex items-center justify-between">
+                  <button class="bookmarkBtn4">
+                    <p class="text4">Calculate Fees</p>
+                    <span class="IconContainer4">
+                     <img src="./assets/img/calculateicon.png" alt="">
+                    </span>  
+                  </button>
+          
+                  <!-- Estimated Fees -->
+                  <div class="text-gray-700 text-sm md:text-base">
+                    Your Estimated Fees: <span class="text-red-600 font-bold">$40.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
 </section>
 
 <section>
-    <div class="text-center pt-32 px-5 lg:px-16">
+    <div class="text-center pt-32 px-5 lg:px-10 xl:px-24">
         <h1 class="xl:text-5xl md:text-3xl text-3xl font-light"> Streamline Your Transactions with<span class="text-[#BB0000] font-semibold"> Account Linking </span>  </h1>
-        <p class="text-sm font-normal text-[#010109] leading-[40px] pt-4">Learn how to effortlessly connect our platform with your preferred financial services. Our step-by-step video tutorials guide you through linking <br> various accounts, ensuring a smooth and efficient withdrawal experience..</p>
+        <p class="xl:text-lg  text-base font-normal text-[#010109] leading-[40px] pt-4">Learn how to effortlessly connect our platform with your preferred financial services. Our step-by-step video tutorials guide you through linking <br> various accounts, ensuring a smooth and efficient withdrawal experience..</p>
         
        <div class="py-14">
         <video class="h-full w-full rounded-[60px]" controls autoplay loop preload="auto">
