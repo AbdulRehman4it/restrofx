@@ -4,6 +4,7 @@
 body{
     background-color: #F4F6F7;
     font-family:GeneralSans-Regular;
+    
 }
 
 
@@ -30,7 +31,7 @@ body{
 }
 
 .bookmarkBtn {
-  width: 120px;
+  width: 130px;
   height: 40px;
   border-radius: 40px;
   border: 1px solid #BB0000;
@@ -62,7 +63,7 @@ body{
 
 .text {
   height: 100%;
-  width: 60px;
+  width: 70px;
   display: flex;
   align-items: center;
   justify-content: center;

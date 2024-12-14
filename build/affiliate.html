@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/output.css">
+    <link rel="stylesheet" href="../src/input.css">
+    <title>Affiliate</title>
+</head>
+<body>
+    <!-- navbar -->
+        <section>
+            <nav class="shadow-md px-5 py-4 xl:py-10 xl:px-16 lg:py-8 2xl:px-24">
+                <div class="flex justify-between items-center mx-auto">
+                  <div class="flex items-center gap-14">
+                    <!-- Logo -->
+                    <div class="flex items-center">
+                      <img src="./assets/img/logo.png" alt="Logo" class="h-10" />
+                    </div>
+              
+                    <!-- Navigation Links for Larger Screens -->
+                    <ul class="hidden lg:flex 2xl:space-x-8 lg:space-x-6">
+                      <li>
+                        <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                          Accounts
+                          <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                          Platforms
+                          <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                          Instruments
+                          <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                          Payments
+                          <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                          Education
+                          <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                          Affiliate
+                          <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                          Journal
+                          <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+              
+                  <!-- Buttons for Larger Screens -->
+                  <div class="hidden lg:flex space-x-4 items-center">
+                    <a href=""><img src="./assets/img/insta.png" alt=""></a>
+                    <button class="bookmarkBtn">
+                      <p class="text">Sign Up</p>
+                      <span class="IconContainer">
+                        <img src="./assets/img/Icon.png" alt="">
+                      </span>
+                    </button>
+                  </div>
+              
+                  <!-- Toggle Button for md and Smaller Screens -->
+                  <div class="block lg:hidden">
+                    <button id="burger-menu" class="text-[#BB0000]">
+                      <span class="block w-6 h-0.5 bg-[#BB0000] mb-1"></span>
+                      <span class="block w-6 h-0.5 bg-[#BB0000] mb-1"></span>
+                      <span class="block w-6 h-0.5 bg-[#BB0000]"></span>
+                    </button>
+                  </div>
+                </div>
+              
+                <!-- Mobile Dropdown Menu -->
+                <div id="mobile-menu" class="hidden space-y-4 mt-4 lg:hidden">
+                  <ul class="space-y-2">
+                    <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Accounts</a></li>
+                    <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Platforms</a></li>
+                    <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Instruments</a></li>
+                    <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Payments</a></li>
+                    <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Education</a></li>
+                    <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Affiliate</a></li>
+                    <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Journal</a></li>
+                  </ul>
+                  <div class="flex flex-col space-y-2">
+                    <a href=""><img src="./assets/img/insta.png" alt=""></a>
+                    <button class="px-4 py-2 bg-[#BB0000] text-white hover:bg-white hover:text-[#BB0000] border-2 hover:border-[#BB0000] rounded">Sign Up</button>
+                  </div>
+                </div>
+              </nav>
+        </section>
+    
+<!-- hero section -->
+
+<section class="relative w-full h-screen bg-cover bg-center" style="background-image: url('./assets/img/affiliatebg.png');">
+    
+</section>
+
+
+    <section>
+        <div class="flex   md:flex-row flex-col  py-6 px-6">
+            <div class="md:w-[50%] w-[100%] py-5 px-5">
+                <h1 class="xl:text-5xl md:text-3xl text-3xl font-light leading-tight md:text-start text-center"> Start Your Journey as an <span class="text-[#BB0000] font-medium"> <br>  Affiliate Partner</span>  </h1>
+                <p class="text-sm font-normal text-[#010109] leading-[40px] pt-4 md:text-start text-center ">Discover limitless opportunities with our Affiliate Program. Join today to access exclusive <br> tools, expert support, and powerful resources designed to drive your success. Whether <br> you’re an experienced marketer or new to affiliate marketing, our program offers everything <br>you need to thrive. </p>
+                <p class="text-sm font-normal text-[#010109] leading-[40px] pt-4">Log in through your affiliate portal to manage your profile, track your performance, and <br> maximize your earnings..</p>
+            </div>
+            <div class="md:w-[50%] w-[100%] py-5 px-5">
+    <img src="./assets/img/Signup form.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="flex  md:flex-row flex-col py-6 px-6">
+            <div class="md:w-[50%] w-[100%] py-5 px-5">
+                <img src="./assets/img/Calculator.png" alt="">
+                        </div>
+            <div class="md:w-[50%] w-[100%] py-5 px-5">
+                <h1 class="xl:text-5xl md:text-3xl text-3xl font-light leading-tight md:text-start text-center"> Calculate Your Affiliate <span class="text-[#BB0000] font-medium"> <br>   Estimated Earnings</span>  </h1>
+                <p class="text-sm font-normal text-[#010109] leading-[40px] pt-4 md:text-start text-center">Get a clear understanding of your earning potential with our easy-to-use Commission <br class="md:hidden block"> Calculator. Simply input your expected referrals and conversions to visualize your potential <br class="md:hidden block"> revenue. This intuitive tool empowers you to strategize effectively, plan your campaigns, and <br class="md:hidden block"> focus on maximizing your income. </p>
+                <p class="text-sm font-normal text-[#010109] leading-[40px] pt-4 md:text-start text-center">Whether you’re setting new targets or optimizing ongoing efforts, the calculator provides <br class="md:hidden block"> insights to help you succeed.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    
+        <section class="bg-black">
+            <div class="text-center text-white pt-32 px-5 lg:px-16">
+              <h1 class="xl:text-5xl md:text-4xl text-3xl font-light "> Stay Updated on Your<span class="text-[#BB0000] font-semibold"> Success Metrics  </span> </h1>
+              <p class="text-sm font-normal text-[#010109] leading-[40px] pt-4 text-white">Keep a finger on the pulse of your affiliate activities with our real-time dashboard. Gain insight into your referrals, track earnings and commissions, and <br> measure your success at a glance. Detailed analytics empower you to make informed decisions and optimize your marketing strategies continuously.</p>
+              <div class="pt-10">
+                <img src="./assets/img/Affiliatessssss 1.png" alt="">
+              </div>
+            </div>
+            <div class="pt-10">
+                <img src="./assets/img/restrofx.png" alt="">
+            </div>
+          </section>
+    
+    
+
+<!-- footer  -->
+<footer>
+    <div class="bg-white 2xl:px-24 md:px-10 px-5 py-10">
+      <div class="flex lg:flex-row flex-col items-center justify-between text-center lg:text-start">
+        <div>
+          <img src="./assets/img/footerlogo.png" alt="">
+        </div>
+        <div class="space-x-6 pt-5 lg:pt-0">
+          <a class="text-18 font-medium hover:underline" href="">Support</a>
+          <a class="text-18 font-medium hover:underline" href="">Terms of services</a>
+          <a class="text-18 font-medium hover:underline" href="">Risk Disclosure</a>
+          <a class="text-18 font-medium hover:underline" href="">Cookies Policy</a>
+        </div>
+        <div>
+          <p class="pt-2 lg:pt-0">© 2024 Restro Fx</p>
+        </div>
+      </div>
+      <div class="pt-8 text-center lg:text-start 2xl:text-sm text-xs 2xl:leading-[30px] leading-[20px]">
+        <p>This website is not directed towards any specific jurisdiction and is not intended for use in violation of any local laws or regulations.</p>
+        <p>Risk Warning: Trading leveraged products such as forex, commodities, and CFDs involves a high level of risk and may not be suitable for all investors. These products can lead to losses that exceed your initial deposit. Ensure that you fully understand the risks associated with trading, taking into consideration your investment objectives and experience level. If necessary, seek independent financial advice before engaging in any trading activity.</p>
+      </div>
+    </div>
+  </footer>
+
+        <!-- navbar -->
+
+        <script>
+            // Get references to the button and the mobile menu
+            const burgerMenu = document.getElementById("burger-menu");
+            const mobileMenu = document.getElementById("mobile-menu");
+          
+            // Toggle mobile menu visibility on button click
+            burgerMenu.addEventListener("click", () => {
+              mobileMenu.classList.toggle("hidden");
+            });
+          </script>
+</body>
+</html>
