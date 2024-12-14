@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/output.css">
+    <link rel="stylesheet" href="../src/input.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/logo.png">
+    <title>Account</title>
+    
+</head>
+<body>
+    
+    <section>
+
+        <nav class="shadow-md px-5 py-4 xl:py-10 xl:px-16 lg:py-8 2xl:px-24">
+          <div class="flex justify-between items-center mx-auto">
+            <div class="flex items-center gap-14">
+              <!-- Logo -->
+              <div class="flex items-center">
+                <img src="./assets/img/logo.png" alt="Logo" class="h-10" />
+              </div>
+        
+              <!-- Navigation Links for Larger Screens -->
+              <ul class="hidden lg:flex 2xl:space-x-8 lg:space-x-6">
+                <li>
+                  <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                    Accounts
+                    <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                    Platforms
+                    <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                    Instruments
+                    <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                    Payments
+                    <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                    Education
+                    <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                    Affiliate
+                    <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                    Journal
+                    <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+        
+            <!-- Buttons for Larger Screens -->
+            <div class="hidden lg:flex space-x-4 items-center">
+              <a href=""><img src="./assets/img/insta.png" alt=""></a>
+              <button class="bookmarkBtn">
+                <p class="text">Sign Up</p>
+                <span class="IconContainer">
+                  <img src="./assets/img/Icon.png" alt="">
+                </span>
+              </button>
+            </div>
+        
+            <!-- Toggle Button for md and Smaller Screens -->
+            <div class="block lg:hidden">
+              <button id="burger-menu" class="text-[#BB0000]">
+                <span class="block w-6 h-0.5 bg-[#BB0000] mb-1"></span>
+                <span class="block w-6 h-0.5 bg-[#BB0000] mb-1"></span>
+                <span class="block w-6 h-0.5 bg-[#BB0000]"></span>
+              </button>
+            </div>
+          </div>
+        
+          <!-- Mobile Dropdown Menu -->
+          <div id="mobile-menu" class="hidden space-y-4 mt-4 lg:hidden">
+            <ul class="space-y-2">
+              <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Accounts</a></li>
+              <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Platforms</a></li>
+              <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Instruments</a></li>
+              <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Payments</a></li>
+              <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Education</a></li>
+              <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Affiliate</a></li>
+              <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Journal</a></li>
+            </ul>
+            <div class="flex flex-col space-y-2">
+              <a href=""><img src="./assets/img/insta.png" alt=""></a>
+              <button class="px-4 py-2 bg-[#BB0000] text-white hover:bg-white hover:text-[#BB0000] border-2 hover:border-[#BB0000] rounded">Sign Up</button>
+            </div>
+          </div>
+        </nav>
+        
+        </section>
+
+     <!-- hero start -->
+     <section class="relative w-full h-screen bg-cover bg-center" style="background-image: url('./assets/img/accountsbg.png');">
+    
+     </section>
+
+
+
+     <section class="justify-center items-center px-5 2xl:pt-36 lg:pt-24 pt-20">
+        <div>
+        <!-- Heading -->
+        <h1 class="text-3xl md:text-5xl 2xl:text-6xl 2xl:leading-[92px] leading-10 md:leading-[60px] font-light text-center mb-4">
+            Choose the Right Account for Your <span class="text-[#BB0000] font-medium">  Trading Needs</span>
+        </h1>
+      
+        <!-- Paragraph -->
+        <p class="text-base xl:text-lg xl:leading-10 leading-8 text-center text-[#010109] mb-8 xl:px-24">
+            Discover flexible account options tailored for every trader. Whether you're a novice dipping your toes into the trading world or an experienced trader seeking <br class="2xl:block hidden"> advanced features, we have the perfect account for you.
+        </p>  
+    </div>
+      </section
+
+   <div></div>
+
+   <!-- account table -->
+
+      <div class="py-8 px-4 md:px-8 xl:px-24 min-h-screen">
+        <!-- Responsive Table Container -->
+        <div class="overflow-x-auto">
+          <!-- Desktop Table -->
+          <table class="hidden md:table table-auto w-full text-left shadow-lg">
+            <!-- Table Header -->
+            <thead>
+              <tr class="2xl:text-4xl text-xl">
+                <th class="px-6 py-4 bg-[#7777774D] font-medium text-[#010109] rounded-tl-[30px]">Features</th>
+                <th class="px-6 py-4 bg-black text-white font-medium">Premium Account</th>
+                <th class="px-6 py-4 bg-black text-white font-medium">Elite Account</th>
+                <th class="px-6 py-4 bg-black text-white font-medium rounded-tr-[30px]">VIP Account</th>
+              </tr>
+            </thead>
+            <!-- Table Body -->
+            <tbody class="bg-white">
+              <!-- Spreads and Pricing -->
+              <tr>
+                <td class="px-6 py-4 font-semibold border border-gray-200">Spreads and Pricing</td>
+                <td class="px-6 py-4 border border-gray-200">Tight spreads from 0.7 pips</td>
+                <td class="px-6 py-4 border border-gray-200">Ultra-low spreads from 0.3 pips</td>
+                <td class="px-6 py-4 border border-gray-200">Near-zero spreads from 0.1 pips</td>
+              </tr>
+      
+              <!-- Customer Support -->
+              <tr>
+                <td class="px-6 py-4 font-semibold border border-gray-200">Customer Support</td>
+                <td class="px-6 py-4 border border-gray-200">Priority market analyst support</td>
+                <td class="px-6 py-4 border border-gray-200">Exclusive account manager services</td>
+                <td class="px-6 py-4 border border-gray-200">Dedicated team of trading experts</td>
+              </tr>
+      
+              <!-- Market Access and Tools -->
+              <tr>
+                <td class="px-6 py-4 font-semibold border border-gray-200">Market Access and Tools</td>
+                <td class="px-6 py-4 border border-gray-200">Full suite of trading tools</td>
+                <td class="px-6 py-4 border border-gray-200">VIP access to webinars and events</td>
+                <td class="px-6 py-4 border border-gray-200">Personalized trading strategies</td>
+              </tr>
+      
+              <!-- Additional Features -->
+              <tr>
+                <td class="px-6 py-4 font-semibold border border-gray-200">Additional Features</td>
+                <td class="px-6 py-4 border border-gray-200">24/7 customer service</td>
+                <td class="px-6 py-4 border border-gray-200">
+                  <ul class="list-disc ml-4">
+                    <li>Discounts on trading commissions</li>
+                    <li>Access to beta testing new features</li>
+                    <li>Monthly training workshops with experts</li>
+                  </ul>
+                </td>
+                <td class="px-6 py-4 border border-gray-200">
+                  Invitations to elite investment seminars
+                </td>
+              </tr>
+      
+              <!-- Educational & Analytical Support -->
+              <tr>
+                <td class="px-6 py-4 font-semibold border border-gray-200">Educational & Analytical Support</td>
+                <td class="px-6 py-4 border border-gray-200">Access to daily market insights & reports</td>
+                <td class="px-6 py-4 border border-gray-200">Priority access to new platform features</td>
+                <td class="px-6 py-4 border border-gray-200">
+                  <ul class="list-disc ml-4">
+                    <li>Annual performance evaluations</li>
+                    <li>Exclusive access to proprietary analytics tools</li>
+                    <li>Direct line to strategy advisors</li>
+                  </ul>
+                </td>
+              </tr>
+      
+              <!-- Sign-Up Buttons -->
+              <tr>
+                <td class="px-6 py-4 rounded-bl-[30px]"></td>
+                <td class="px-6 py-4 text-center border border-gray-200 border-b-0">
+                    <button class="bookmarkBtn">
+                        <p class="text">Sign Up</p>
+                        <span class="IconContainer">
+                          <img src="./assets/img/Icon.png" alt="">
+                        </span>
+                      </button>
+                </td>
+                <td class="px-6 py-4 text-center border border-gray-200 border-b-0">
+                    <button class="bookmarkBtn">
+                        <p class="text">Sign Up</p>
+                        <span class="IconContainer">
+                          <img src="./assets/img/Icon.png" alt="">
+                        </span>
+                      </button>
+                </td>
+                <td class="px-6 py-4 text-center rounded-br-[30px]">
+                    <button class="bookmarkBtn">
+                        <p class="text">Sign Up</p>
+                        <span class="IconContainer">
+                          <img src="./assets/img/Icon.png" alt="">
+                        </span>
+                      </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <!-- Mobile Cards -->
+          <div class="md:hidden">
+            <div class="space-y-4">
+              <!-- Premium Account -->
+              <div class="border border-white bg-white shadow-lg rounded-lg p-4">
+                <h2 class="text-lg font-semibold mb-2">Premium Account</h2>
+                <p><strong>Spreads and Pricing:</strong> Tight spreads from 0.7 pips</p>
+                <p><strong>Customer Support:</strong> Priority market analyst support</p>
+                <p><strong>Market Access and Tools:</strong> Full suite of trading tools</p>
+                <p><strong>Additional Features:</strong> 24/7 customer service</p>
+                <p><strong>Educational Support:</strong> Access to daily market insights & reports</p>
+                <div class="text-center mt-4">
+                    <button class="bookmarkBtn">
+                        <p class="text">Sign Up</p>
+                        <span class="IconContainer">
+                          <img src="./assets/img/Icon.png" alt="">
+                        </span>
+                      </button>
+                </div>
+              </div>
+      
+              <!-- Elite Account -->
+              <div class="border border-white  bg-white shadow-lg rounded-lg p-4">
+                <h2 class="text-lg font-semibold mb-2">Elite Account</h2>
+                <p><strong>Spreads and Pricing:</strong> Ultra-low spreads from 0.3 pips</p>
+                <p><strong>Customer Support:</strong> Exclusive account manager services</p>
+                <p><strong>Market Access and Tools:</strong> VIP access to webinars and events</p>
+                <p><strong>Additional Features:</strong> Discounts on trading commissions, beta testing access</p>
+                <p><strong>Educational Support:</strong> Priority access to new platform features</p>
+                <div class="text-center mt-4">
+                    <button class="bookmarkBtn">
+                        <p class="text">Sign Up</p>
+                        <span class="IconContainer">
+                          <img src="./assets/img/Icon.png" alt="">
+                        </span>
+                      </button>
+                </div>
+              </div>
+      
+              <!-- VIP Account -->
+              <div class="border border-white bg-white shadow-lg rounded-lg p-4">
+                <h2 class="text-lg font-semibold mb-2">VIP Account</h2>
+                <p><strong>Spreads and Pricing:</strong> Near-zero spreads from 0.1 pips</p>
+                <p><strong>Customer Support:</strong> Dedicated team of trading experts</p>
+                <p><strong>Market Access and Tools:</strong> Personalized trading strategies</p>
+                <p><strong>Additional Features:</strong> Invitations to elite investment seminars</p>
+                <p><strong>Educational Support:</strong> Annual performance evaluations, direct line to strategy advisors</p>
+                <div class="text-center mt-4">
+                    <button class="bookmarkBtn">
+                        <p class="text">Sign Up</p>
+                        <span class="IconContainer">
+                          <img src="./assets/img/Icon.png" alt="">
+                        </span>
+                      </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
+<!-- guide section -->
+      <section>
+        
+        <div class="text-start xl:px-24 px-5 xl:pt-24 lg:pt-16 pt-8">
+            <!-- Heading -->
+            <h1 class="text-3xl md:text-5xl 2xl:text-6xl 2xl:leading-[92px] leading-10 md:leading-[60px] font-light mb-4">
+                Your Guide to  <span class="text-[#BB0000] font-medium"> Seamless Trading</span>
+            </h1>
+          
+            <!-- Paragraph -->
+            <p class="text-base xl:text-lg xl:leading-10 leading-8 text-[#010109] mb-8">
+                Navigating a trading platform can seem daunting, but our FAQ section is here to make your journey smoother. Whether you're just starting out or looking to optimize your trading strategy, these frequently asked questions offer valuable insights and solutions. Explore the key features and services our platform provides to help you trade with confidence.
+            </p>  
+        </div>
+
+<!-- Tabs and Pagination Section -->
+<div class=" py-8 xl:px-24 px-5 md:px-8 min-h-screen text-start">
+    <!-- Tabs -->
+    <div class="flex flex-wrap justify-center mb-10">
+      <!-- Tab Links -->
+      <button id="tab-1-btn" class="tab-btn 2xl:text-3xl text-lg text-[#777777] font-light px-4 py-2 border-b-2 hover:border-b-[#BB0000] focus:text-[#BB0000]">Platform Features (9)</button>
+      <button id="tab-2-btn" class="tab-btn 2xl:text-3xl text-lg font-light text-[#777777] border-b-2 hover:border-b-[#BB0000] focus:text-[#BB0000] px-4 py-2">Account Setup (8)</button>
+      <button id="tab-3-btn" class="tab-btn 2xl:text-3xl text-lg font-light text-[#777777] border-b-2 hover:border-b-[#BB0000] focus:text-[#BB0000] px-4 py-2">Trading Basics (10)</button>
+      <button id="tab-4-btn" class="tab-btn 2xl:text-3xl text-lg font-light text-[#777777] border-b-2 hover:border-b-[#BB0000] focus:text-[#BB0000] px-4 py-2">Security & Privacy (6)</button>
+      <button id="tab-5-btn" class="tab-btn 2xl:text-3xl text-lg font-light text-[#777777] border-b-2 hover:border-b-[#BB0000] focus:text-[#BB0000] px-4 py-2">Deposits & Withdrawals (7)</button>
+    </div>
+  
+    <!-- Tab Content -->
+    <div id="tab-content-1" class="tab-content block">
+      <!-- Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Card 1 -->
+        <div class="bg-white p-6 rounded-[30px] shadow">
+          <h3 class="font-medium text-[#010109] mb-2 2xl:text-2xl  text-lg">What tools are available for technical analysis?</h3>
+          <p class="text-[#010109] xl:text-base text-sm">
+            Our platform offers a comprehensive suite of technical analysis tools, including real-time charts and trend indicators.
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white p-6 rounded-[30px] shadow">
+            <h3 class="font-medium text-[#010109] mb-2 2xl:text-2xl text-lg">What platforms can I integrate with my account?</h3>
+            <p class="text-[#010109] xl:text-base text-sm">
+                You can integrate your account with popular trading platforms, enhancing your experience with extended functionalities and synchronized data.
+            </p>
+          </div>
+          <!-- Card 3 -->
+        <div class="bg-white p-6 rounded-[30px] shadow">
+            <h3 class="font-medium text-[#010109] mb-2 2xl:text-2xl text-lg"> How often are platform updates released?</h3>
+            <p class="text-[#010109] xl:text-base text-sm">
+                Updates are rolled out regularly, providing new features and enhancements to improve the trading experience and ensure top security standards.
+            </p>
+          </div>
+        
+        <!-- Card 4 -->
+        <div class="bg-white p-6 rounded-[30px] shadow">
+          <h3 class="font-medium text-[#010109] mb-2 2xl:text-2xl text-lg">Can I participate in community forums?</h3>
+          <p class="text-[#010109] xl:text-base text-sm">
+            Our platform features interactive community forums where you can share insights, discuss strategies, and connect with fellow traders globally.
+          </p>
+        </div>
+        <!-- Card 5 -->
+        <div class="bg-white p-6 rounded-[30px] shadow">
+          <h3 class="font-medium text-[#010109] mb-2 2xl:text-2xl text-lg">Is there a mobile app available?</h3>
+          <p class="text-[#010109] xl:text-base text-sm">
+            Yes, our robust mobile app ensures you're never far from the markets, offering the same powerful features as our desktop platform. Stay connected with real-time alerts and trade on-the-go with confidence, knowing that mobile functionalities are optimized for seamless use.
+          </p>
+        </div>
+        <!-- Card 6 -->
+        <div class="bg-white p-6 rounded-[30px] shadow">
+          <h3 class="font-medium text-[#010109] mb-2 2xl:text-2xl text-lg">How do I receive alerts and notifications?</h3>
+          <p class="text-[#010109] xl:text-base text-sm">
+            Set up custom alerts and notifications through the platform, ensuring you stay updated on market changes and your specific trading criteria.
+          </p>
+        </div>
+        <!-- Card 7 -->
+        <div class="bg-white p-6 rounded-[30px] shadow">
+          <h3 class="font-medium text-[#010109] mb-2 2xl:text-2xl text-lg">How can I customize my trading dashboard?</h3>
+          <p class="text-[#010109] xl:text-base text-sm">
+            Customization is key to a personalized trading experience. Our platform allows you to tailor your dashboard with widgets that track your preferred assets, set up custom alerts, and organize data feeds.
+          </p>
+        </div>
+        <!-- Card 8 -->
+        <div class="bg-white p-6 rounded-[30px] shadow">
+          <h3 class="font-medium text-[#010109] mb-2 2xl:text-2xl text-lg">What research resources are available?</h3>
+          <p class="text-[#010109] xl:text-base text-sm">
+            Access a wealth of research materials, including market reports, expert analyses, and educational articles to support your trading decisions.
+          </p>
+        </div>
+      </div>
+      
+  
+      <!-- Pagination -->
+      <div class="flex justify-center mt-8">
+        <button class="pagination-btn mx-2 px-3 py-1 bg-gray-200 text-gray-600 rounded hover:bg-gray-300">&lt;</button>
+        <button class="pagination-btn mx-2 px-3 py-1 bg-red-600 text-white rounded">1</button>
+        <button class="pagination-btn mx-2 px-3 py-1 bg-gray-200 text-gray-600 rounded hover:bg-gray-300">2</button>
+        <button class="pagination-btn mx-2 px-3 py-1 bg-gray-200 text-gray-600 rounded hover:bg-gray-300">&gt;</button>
+      </div>
+    </div>
+  
+    <!-- Placeholder for Other Tabs -->
+    <div id="tab-content-2" class="tab-content hidden">Account Setup Content...</div>
+    <div id="tab-content-3" class="tab-content hidden">Trading Basics Content...</div>
+    <div id="tab-content-4" class="tab-content hidden">Security & Privacy Content...</div>
+    <div id="tab-content-5" class="tab-content hidden">Deposits & Withdrawals Content...</div>
+  </div>
+
+</section>
+
+<footer>
+    <div class="bg-white 2xl:px-24 md:px-10 px-5 py-10">
+      <div class="flex lg:flex-row flex-col items-center justify-between text-center lg:text-start">
+        <div>
+          <img src="./assets/img/footerlogo.png" alt="">
+        </div>
+        <div class="space-x-6 pt-5 lg:pt-0">
+          <a class="text-18 font-medium hover:underline" href="">Support</a>
+          <a class="text-18 font-medium hover:underline" href="">Terms of services</a>
+          <a class="text-18 font-medium hover:underline" href="">Risk Disclosure</a>
+          <a class="text-18 font-medium hover:underline" href="">Cookies Policy</a>
+        </div>
+        <div>
+          <p class="pt-2 lg:pt-0">© 2024 Restro Fx</p>
+        </div>
+      </div>
+      <div class="pt-8 text-center lg:text-start 2xl:text-sm text-xs 2xl:leading-[30px] leading-[20px]">
+        <p>This website is not directed towards any specific jurisdiction and is not intended for use in violation of any local laws or regulations.</p>
+        <p>Risk Warning: Trading leveraged products such as forex, commodities, and CFDs involves a high level of risk and may not be suitable for all investors. These products can lead to losses that exceed your initial deposit. Ensure that you fully understand the risks associated with trading, taking into consideration your investment objectives and experience level. If necessary, seek independent financial advice before engaging in any trading activity.</p>
+      </div>
+    </div>
+  </footer>
+  
+
+
+
+
+
+
+  <!-- JavaScript for Tabs -->
+  <script>
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.tab-content');
+  
+    tabButtons.forEach((btn, idx) => {
+      btn.addEventListener('click', () => {
+        tabButtons.forEach(b => b.classList.remove());
+        btn.classList.add();
+  
+        tabContents.forEach(content => content.classList.add('hidden'));
+        document.getElementById(`tab-content-${idx + 1}`).classList.remove('hidden');
+      });
+    });
+  </script>
+
+
+<!-- navbar -->
+
+     <script>
+        // Get references to the button and the mobile menu
+        const burgerMenu = document.getElementById("burger-menu");
+        const mobileMenu = document.getElementById("mobile-menu");
+      
+        // Toggle mobile menu visibility on button click
+        burgerMenu.addEventListener("click", () => {
+          mobileMenu.classList.toggle("hidden");
+        });
+      </script>
+
+</body>
+</html>

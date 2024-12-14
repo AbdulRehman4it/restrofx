@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/output.css">
+    <link rel="stylesheet" href="../src/input.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/logo.png">
+    <title>Spresd Rate</title>
+</head>
+<body>
+    <section>
+
+        <nav class="shadow-md px-5 py-4 xl:py-10 xl:px-16 lg:py-8 2xl:px-24">
+          <div class="flex justify-between items-center mx-auto">
+            <div class="flex items-center gap-14">
+              <!-- Logo -->
+              <div class="flex items-center">
+                <img src="./assets/img/logo.png" alt="Logo" class="h-10" />
+              </div>
+        
+              <!-- Navigation Links for Larger Screens -->
+              <ul class="hidden lg:flex 2xl:space-x-8 lg:space-x-6">
+                <li>
+                  <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                    Accounts
+                    <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                    Platforms
+                    <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                    Instruments
+                    <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                    Payments
+                    <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                    Education
+                    <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                    Affiliate
+                    <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-black hover:text-[#BB0000] text-base lg:text-sm xl:text-base 2xl:text-lg font-medium relative group">
+                    Journal
+                    <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#BB0000] transition-all duration-300 group-hover:w-full"></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+        
+            <!-- Buttons for Larger Screens -->
+            <div class="hidden lg:flex space-x-4 items-center">
+              <a href=""><img src="./assets/img/insta.png" alt=""></a>
+              <button class="bookmarkBtn">
+                <p class="text">Sign Up</p>
+                <span class="IconContainer">
+                  <img src="./assets/img/Icon.png" alt="">
+                </span>
+              </button>
+            </div>
+        
+            <!-- Toggle Button for md and Smaller Screens -->
+            <div class="block lg:hidden">
+              <button id="burger-menu" class="text-[#BB0000]">
+                <span class="block w-6 h-0.5 bg-[#BB0000] mb-1"></span>
+                <span class="block w-6 h-0.5 bg-[#BB0000] mb-1"></span>
+                <span class="block w-6 h-0.5 bg-[#BB0000]"></span>
+              </button>
+            </div>
+          </div>
+        
+          <!-- Mobile Dropdown Menu -->
+          <div id="mobile-menu" class="hidden space-y-4 mt-4 lg:hidden">
+            <ul class="space-y-2">
+              <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Accounts</a></li>
+              <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Platforms</a></li>
+              <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Instruments</a></li>
+              <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Payments</a></li>
+              <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Education</a></li>
+              <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Affiliate</a></li>
+              <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Journal</a></li>
+            </ul>
+            <div class="flex flex-col space-y-2">
+              <a href=""><img src="./assets/img/insta.png" alt=""></a>
+              <button class="px-4 py-2 bg-[#BB0000] text-white hover:bg-white hover:text-[#BB0000] border-2 hover:border-[#BB0000] rounded">Sign Up</button>
+            </div>
+          </div>
+        </nav>
+        
+        </section>
+
+     <!-- hero start -->
+     <section class="relative w-full h-screen bg-cover bg-center" style="background-image: url('./assets/img/spreadbg.png');">
+    
+     </section>
+
+     <section class="bg-gray-100 flex flex-col justify-center items-center px-5 2xl:pt-36 lg:pt-24 pt-20">
+        <!-- Heading -->
+        <h1 class="ttext-3xl md:text-5xl 2xl:text-6xl 2xl:leading-[92px] leading-10 md:leading-[60px] font-light text-center mb-4">
+          Live Markets <span class="text-[#BB0000] font-medium"> Insights</span>
+        </h1>
+      
+        <!-- Paragraph -->
+        <p class="text-base xl:text-lg text-center text-gray-700 mb-8">
+          Stay ahead with real-time data on forex, indices, crypto, and stocks – empowering your trading decisions.
+        </p>
+      
+        <!-- Tab Menu -->
+       
+      </section>
+    
+    
+    <!-- Menu Tabs -->
+    <div class="flex flex-col md:flex-row justify-center mb-6 xl:space-x-12 md:space-x-6 space-x-0 space-y-4 md:space-y-0 px-5 2xl:pt-20 xl:pt-14 md:pt-12">
+      <button class="2xl:text-[28px] xl:text-lg text-sm hover:text-[#BB0000] text-[#777777] focus:text-[#BB0000]"  onclick="showTabContent(1)">FX Majors</button>
+      <button class="2xl:text-[28px] xl:text-lg text-sm text-[#777777] hover:text-[#BB0000] focus:text-[#BB0000]"  onclick="showTabContent(2)">FX Crosses</button>
+      <button class="2xl:text-[28px] xl:text-lg text-sm hover:text-[#BB0000] text-[#777777] focus:text-[#BB0000] "  onclick="showTabContent(3)">FX Exotics</button>
+      <button class="2xl:text-[28px] xl:text-lg text-sm text-[#777777] hover:text-[#BB0000] focus:text-[#BB0000] "  onclick="showTabContent(4)">Metals</button>
+      <button class="2xl:text-[28px] xl:text-lg text-sm hover:text-[#BB0000] text-[#777777] focus:text-[#BB0000]"  onclick="showTabContent(5)">Indices</button>
+      <button class="2xl:text-[28px] xl:text-lg text-sm text-[#777777] hover:text-[#BB0000] focus:text-[#BB0000]"  onclick="showTabContent(6)">Energys</button>
+      <button class="2xl:text-[28px] xl:text-lg text-sm text-[#777777] hover:text-[#BB0000] focus:text-[#BB0000] "  onclick="showTabContent(7)">Cryptos</button>
+      <button class="2xl:text-[28px] xl:text-lg text-sm hover:text-[#BB0000] text-[#777777] focus:text-[#BB0000] "  onclick="showTabContent(8)">EU Shares</button>
+      <button class="2xl:text-[28px] xl:text-lg text-sm text-[#777777] hover:text-[#BB0000] focus:text-[#BB0000] "  onclick="showTabContent(9)">US Shares</button>
+    </div>
+    
+    <!-- Tab Content -->
+    <div id="tab-content" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-8 2xl:px-24 xl:px-20 lg:px-16 px-5 2xl:pb-48 xl:pb-36 md:pb-16 pb-8">
+      <div class="eur bg-white rounded-xl shadow-md hover:shadow-[#BB0000] px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="1">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">EUR/AUD</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.00</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="1">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">GBP/USD</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.01</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.05</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="1">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">USD/JPY</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="1">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">USD/JPY</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="1">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">USD/CHF</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="1">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">USD/CAD</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="1">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">NZD/USD</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+    
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="2">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Wall Street</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.00</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="2">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">FTSE 100</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.01</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.05</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="2">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">DAX</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="2">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Wall Street</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.00</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="2">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Wall Street</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.00</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="2">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Wall Street</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.00</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+        </div>
+      </div>
+      
+      
+    
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="3">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">ETH</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.00</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="3">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">BNB</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.01</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.05</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="3">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">BTC</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="3">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">BTC</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="3">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">BTC</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="3">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">BTC</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+    
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="4">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Apple</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.00</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="4">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Texla</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.01</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.05</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="4">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Samsung</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="4">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Samsung</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="4">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Samsung</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="4">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Samsung</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="5">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Samsung</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="5">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Samsung</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="5">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Samsung</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="5">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Samsung</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="5">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Samsung</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="6">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">BTC</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="6">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">BTC</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="6">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">BTC</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="7">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Wall Street</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.00</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="7">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Wall Street</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.00</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="7">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Wall Street</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.00</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.63</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="8">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">NZD/USD</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="8">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">NZD/USD</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="8">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">NZD/USD</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="9">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Samsung</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="9">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Samsung</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md hover:shadow-[#BB0000]  px-7 py-7 md:space-y-4 2xl:space-y-6" data-tab="9">
+        <h1 class="xl:text-[32px] text-2xl text-[#777777]">Samsung</h1>
+        <div class="flex justify-between">
+          <div>
+            <p class="text-lg text-[#777777]">BID</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">145.3</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Spread</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">0.02</h1>
+          </div>
+          <div>
+            <p class="text-lg text-[#777777]">Ask</p>
+            <h1 class="xl:text-[32px] text-2xl text-[#777777]">1.23</h1>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+   
+<!-- live market -->
+
+    <section class="bg-gray-100 flex flex-col justify-center items-center px-5 lg:px-16 xl:px-24 2xl:pt-36 lg:pt-24 pt-20">
+        <!-- Heading -->
+        <h1 class="text-3xl md:text-5xl font-light text-center mb-4">
+          Diverse Trading <span class="text-[#BB0000] font-medium">Assets</span>
+        </h1>
+      
+        <!-- Paragraph -->
+        <p class="text-base xl:text-xl xl:leading-10 lg:leading-8 text-center text-[#010109] mb-8">
+            Explore an expansive array of trading assets that cater to every trader's preference. From forex pairs and indices to commodities and cryptocurrencies, our <br class="2xl:block hidden"> platform supports a wide selection for diversified portfolio strategies.
+        </p>
+      
+        <!-- Tab Menu -->
+       
+      </section>
+
+
+       <!-- table content -->
+    <section class="pb-20">
+
+        <!-- tab button -->
+
+      <div class="flex flex-col md:flex-row justify-center mb-6 xl:space-x-12 md:space-x-6 lg:space-x-8 space-x-0 space-y-4 md:space-y-0 px-5 md:pt-10 ">
+        <button class="2xl:text-[28px] xl:text-lg lg:text-base text-sm hover:text-[#BB0000] text-[#777777] focus:text-[#BB0000]"  onclick="showTabContent(1)">FX Majors</button>
+        <button class="2xl:text-[28px] xl:text-lg lg:text-base text-sm  text-[#777777] hover:text-[#BB0000] focus:text-[#BB0000]"  onclick="showTabContent(2)">FX Crosses</button>
+        <button class="2xl:text-[28px] xl:text-lg lg:text-base text-sm  hover:text-[#BB0000] text-[#777777] focus:text-[#BB0000] "  onclick="showTabContent(3)">FX Exotics</button>
+        <button class="2xl:text-[28px] xl:text-lg lg:text-base text-sm  text-[#777777] hover:text-[#BB0000] focus:text-[#BB0000] "  onclick="showTabContent(4)">Metals</button>
+        <button class="2xl:text-[28px] xl:text-lg lg:text-base text-sm  hover:text-[#BB0000] text-[#777777] focus:text-[#BB0000]"  onclick="showTabContent(5)">Indices</button>
+        <button class="2xl:text-[28px] xl:text-lg lg:text-base text-sm  text-[#777777] hover:text-[#BB0000] focus:text-[#BB0000]"  onclick="showTabContent(6)">Energys</button>
+        <button class="2xl:text-[28px] xl:text-lg lg:text-base text-sm  text-[#777777] hover:text-[#BB0000] focus:text-[#BB0000] "  onclick="showTabContent(7)">Cryptos</button>
+       
+      </div>
+
+      <!-- table -->
+      <div class="overflow-x-auto 2xl:px-52 xl:px-20 md:px-10 px-5 pt-10">
+        <table class="table-auto w-full text-left ">
+          <thead class="bg-[#7777774D] text-[#010109] 2xl:text-4xl xl:text-2xl lg:text-xl text-lg">
+            <tr>
+              <th class="md:px-10 px-4 md:py-2 xl:py-4  border-b border-gray-300 rounded-tl-[30px]">Pairs</th>
+              <th class="py-4 md:px-10 px-4 border-b border-gray-300 rounded-tr-[30px]">Pair Names</th>
+            </tr>
+          </thead>
+          <tbody class="text-[#010109] bg-white xl:text-xl text-sm ">
+            <tr class="hover:bg-[#BB0000] hover:text-white">
+              <td class="md:px-10 px-4 py-4 border-b border-gray-300">Germany 30 - US Dollar</td>
+              <td class="md:px-10 px-4 py-4  border-b border-gray-300">DAX</td>
+            </tr>
+            <tr class="hover:bg-[#BB0000] hover:text-white">
+              <td class="md:px-10 px-4 py-4  border-b border-gray-300">IBEX 35 - US Dollar</td>
+              <td class="md:px-10 px-4 py-4 border-b border-gray-300">ESP35</td>
+            </tr>
+            <tr class="hover:bg-[#BB0000] hover:text-white">
+              <td class="md:px-10 px-4 py-4  border-b border-gray-300">Euro Stoxx 50 - US Dollar</td>
+              <td class="md:px-10 px-4 py-4  border-b border-gray-300">EUSTX50</td>
+            </tr>
+            <tr class="hover:bg-[#BB0000] hover:text-white">
+              <td class="md:px-10 px-4 py-4  border-b border-gray-300">France CAC 40 - US Dollar</td>
+              <td class="md:px-10 px-4 py-4  border-b border-gray-300">FRA40</td>
+            </tr>
+            <tr class="hover:bg-[#BB0000] hover:text-white">
+              <td class="md:px-10 px-4 py-4  border-b border-gray-300">Japan Nikkei 225 - US Dollar</td>
+              <td class="md:px-10 px-4 py-4  border-b border-gray-300">JPN225</td>
+            </tr>
+            <tr class="hover:bg-[#BB0000] hover:text-white">
+              <td class="md:px-10 px-4 py-4  border-b border-gray-300">NASDAQ 100 - US Dollar</td>
+              <td class="md:px-10 px-4 py-4  border-b border-gray-300">NAS100</td>
+            </tr>
+            <tr class="hover:bg-[#BB0000] hover:text-white">
+              <td class="md:px-10 px-4 py-4  border-b border-gray-300">S&P 500 - US Dollar</td>
+              <td class="md:px-10 px-4 py-4  border-b border-gray-300">SPX500</td>
+            </tr>
+            <tr class="hover:bg-[#BB0000] hover:text-white">
+              <td class="md:px-10 px-4 py-4  border-b border-gray-300">UK FTSE 100 - US Dollar</td>
+              <td class="md:px-10 px-4 py-4  border-b border-gray-300">UK100</td>
+            </tr>
+            <tr class="hover:bg-[#BB0000] hover:text-white ">
+              <td class="md:px-10 px-4 py-4 rounded-bl-[30px]">Dow Jones 30 - US Dollar</td>
+              <td class="md:px-10 px-4 py-4 rounded-br-[30px]">US30</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </section>
+
+       
+    <!-- footer -->
+    <footer>
+        <div class="bg-white 2xl:px-24 md:px-10 px-5 py-10">
+          <div class="flex lg:flex-row flex-col items-center justify-between text-center lg:text-start">
+            <div>
+              <img src="./assets/img/footerlogo.png" alt="">
+            </div>
+            <div class="space-x-6 pt-5 lg:pt-0">
+              <a class="text-18 font-medium hover:underline" href="">Support</a>
+              <a class="text-18 font-medium hover:underline" href="">Terms of services</a>
+              <a class="text-18 font-medium hover:underline" href="">Risk Disclosure</a>
+              <a class="text-18 font-medium hover:underline" href="">Cookies Policy</a>
+            </div>
+            <div>
+              <p class="pt-2 lg:pt-0">© 2024 Restro Fx</p>
+            </div>
+          </div>
+          <div class="pt-8 text-center lg:text-start 2xl:text-sm text-xs 2xl:leading-[30px] leading-[20px]">
+            <p>This website is not directed towards any specific jurisdiction and is not intended for use in violation of any local laws or regulations.</p>
+            <p>Risk Warning: Trading leveraged products such as forex, commodities, and CFDs involves a high level of risk and may not be suitable for all investors. These products can lead to losses that exceed your initial deposit. Ensure that you fully understand the risks associated with trading, taking into consideration your investment objectives and experience level. If necessary, seek independent financial advice before engaging in any trading activity.</p>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+
+        <!-- navbar -->
+
+        <script>
+            // Get references to the button and the mobile menu
+            const burgerMenu = document.getElementById("burger-menu");
+            const mobileMenu = document.getElementById("mobile-menu");
+          
+            // Toggle mobile menu visibility on button click
+            burgerMenu.addEventListener("click", () => {
+              mobileMenu.classList.toggle("hidden");
+            });
+          </script>
+
+          <!-- tab contant -->
+          <script>
+            // Tab functionality
+            const tabButtons = document.querySelectorAll('.tab-btn');
+            const tabContent = document.querySelectorAll('#tab-content > div');
+          
+            tabButtons.forEach((button) => {
+              button.addEventListener('click', () => {
+                // Update tab button styles
+                tabButtons.forEach((btn) => {
+                  btn.classList.remove('bg-[#BB0000]', 'text-white');
+                  btn.classList.add('bg-gray-200', 'text-[#BB0000]');
+                });
+                button.classList.remove('bg-gray-200', 'text-[#BB0000]');
+                button.classList.add('bg-[#BB0000]', 'text-white');
+          
+                // Show/Hide tab content
+                const targetTab = button.getAttribute('data-tab');
+                tabContent.forEach((content) => {
+                  if (content.getAttribute('data-tab') === targetTab) {
+                    content.classList.remove('hidden');
+                  } else {
+                    content.classList.add('hidden');
+                  }
+                });
+              });
+            });
+          </script>
+          
+          <!-- 3rdsectionend -->
+        
+        
+          <script>
+            function showTabContent(tabNumber) {
+              const allContent = document.querySelectorAll('[data-tab]');
+              allContent.forEach(content => {
+                if (parseInt(content.getAttribute('data-tab')) === tabNumber) {
+                  content.classList.remove('hidden');
+                } else {
+                  content.classList.add('hidden');
+                }
+              });
+            }
+        
+            // Default to show Menu 1 content
+            showTabContent(1);
+          </script>
+
+</body>
+</html>
