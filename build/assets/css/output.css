@@ -1289,10 +1289,6 @@ video {
   line-height: 40px;
 }
 
-.leading-\[45px\] {
-  line-height: 45px;
-}
-
 .leading-tight {
   line-height: 1.25;
 }
@@ -2258,11 +2254,6 @@ body{
     line-height: 1;
   }
 
-  .md\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -2527,10 +2518,6 @@ body{
     line-height: 1.75rem;
   }
 
-  .lg\:leading-8 {
-    line-height: 2rem;
-  }
-
   .lg\:leading-\[44px\] {
     line-height: 44px;
   }
@@ -2724,12 +2711,20 @@ body{
     line-height: 2.5rem;
   }
 
+  .xl\:leading-\[40px\] {
+    line-height: 40px;
+  }
+
   .xl\:leading-\[50px\] {
     line-height: 50px;
   }
 
   .xl\:leading-\[70px\] {
     line-height: 70px;
+  }
+
+  .xl\:leading-\[92px\] {
+    line-height: 92px;
   }
 }
 
