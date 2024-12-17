@@ -652,6 +652,10 @@ video {
   height: 2px;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .h-full {
   height: 100%;
 }
@@ -904,9 +908,19 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
+.bg-\[\#010109\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(1 1 9 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[\#08080E\] {
   --tw-bg-opacity: 1;
   background-color: rgb(8 8 14 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#0D0D15\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(13 13 21 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[\#12121D\] {
@@ -1014,11 +1028,6 @@ video {
   padding-right: 2rem;
 }
 
-.px-\[100px\] {
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1089,6 +1098,10 @@ video {
   padding-bottom: 2rem;
 }
 
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -1099,6 +1112,10 @@ video {
 
 .pb-36 {
   padding-bottom: 9rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .pb-44 {
@@ -1706,6 +1723,68 @@ body{
   transition-duration: 0.3s;
 }
 
+.bookmarkBtn9 {
+  width: 150px;
+  height: 40px;
+  border-radius: 40px;
+  border: 1px solid #BB0000;
+  background-color:#BB0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+}
+
+.IconContainer9 {
+  width: 50px;
+  height: 30px;
+  background: #BB0000;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 2;
+  transition-duration: 0.3s;
+}
+
+.icon {
+  border-radius: 1px;
+}
+
+.text9 {
+  height: 100%;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 1;
+  transition-duration: 0.3s;
+  font-size: 16px;
+}
+
+.bookmarkBtn9:hover .IconContainer9 {
+  width: 90px;
+  transition-duration: 0.3s;
+}
+
+.bookmarkBtn9:hover .text9 {
+  transform: translate(10px);
+  width: 0;
+  font-size: 0;
+  transition-duration: 0.3s;
+}
+
+.bookmarkBtn9:active {
+  transform: scale(0.95);
+  transition-duration: 0.3s;
+}
+
+/* @media query */
+
 @media (min-width:1024px) and (max-width: 1239px) {
   .bookmarkBtn3 {
     width: 310px;
@@ -2035,6 +2114,10 @@ body{
   .sm\:items-center {
     align-items: center;
   }
+
+  .sm\:gap-4 {
+    gap: 1rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -2088,6 +2171,10 @@ body{
 
   .md\:gap-4 {
     gap: 1rem;
+  }
+
+  .md\:gap-6 {
+    gap: 1.5rem;
   }
 
   .md\:gap-8 {
@@ -2616,6 +2703,11 @@ body{
   .xl\:px-32 {
     padding-left: 8rem;
     padding-right: 8rem;
+  }
+
+  .xl\:px-\[100px\] {
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .xl\:py-10 {
