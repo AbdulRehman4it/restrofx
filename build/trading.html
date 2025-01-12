@@ -6,9 +6,15 @@
     <link rel="stylesheet" href="./assets/css/output.css">
     <link rel="stylesheet" href="../src/input.css">
     <link rel="icon" type="image/x-icon" href="./assets/img/logo.png">
+    
+    
+    <link   rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <title>Trading</title>
 </head>
-<body>
+<body class="overflow-x-hidden">
     <!-- navbar -->
     <section>
         <nav class="shadow-md px-5 py-4 xl:py-10 xl:px-16 lg:py-8 2xl:px-24">
@@ -92,13 +98,13 @@
             <!-- Mobile Dropdown Menu -->
             <div id="mobile-menu" class="hidden space-y-4 mt-4 lg:hidden">
               <ul class="space-y-2">
-                <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Accounts</a></li>
-                <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Platforms</a></li>
-                <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Instruments</a></li>
-                <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Payments</a></li>
-                <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Education</a></li>
-                <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Affiliate</a></li>
-                <li><a href="#" class="block text-black hover:text-[#BB0000] text-lg font-medium">Journal</a></li>
+                <li><a href="account.html" class="block text-black hover:text-[#BB0000] text-lg font-medium">Accounts</a></li>
+                <li><a href="plateform.html" class="block text-black hover:text-[#BB0000] text-lg font-medium">Platforms</a></li>
+                <li><a href="spread.html" class="block text-black hover:text-[#BB0000] text-lg font-medium">Instruments</a></li>
+                <li><a href="widthraw.html" class="block text-black hover:text-[#BB0000] text-lg font-medium">Payments</a></li>
+                <li><a href="spread.html" class="block text-black hover:text-[#BB0000] text-lg font-medium">Education</a></li>
+                <li><a href="affiliate.html" class="block text-black hover:text-[#BB0000] text-lg font-medium">Affiliate</a></li>
+                <li><a href="" class="block text-black hover:text-[#BB0000] text-lg font-medium">Journal</a></li>
               </ul>
               <div class="flex flex-col space-y-2">
                 <a href=""><img src="./assets/img/insta.png" alt=""></a>
@@ -114,46 +120,46 @@
 <section>
     <div class="text-center text-[#010109] pt-32 px-5 lg:px-16">
         <h1 class="xl:text-5xl md:text-4xl text-3xl font-light "> Harness the Power of Our Digital<span class="text-[#BB0000] font-semibold">  Trading Journal  </span> </h1>
-        <p class="text-sm font-normal text-[#010109] leading-[40px] pt-4 text-black">Keep a finger on the pulse of your affiliate activities with our real-time dashboard. Gain insight into your referrals, track earnings and commissions, and <br> measure your success at a glance. Detailed analytics empower you to make informed decisions and optimize your marketing strategies continuously.</p>
+        <p class="text-sm font-normal text-[#010109] leading-[40px] pt-4">Keep a finger on the pulse of your affiliate activities with our real-time dashboard. Gain insight into your referrals, track earnings and commissions, and <br> measure your success at a glance. Detailed analytics empower you to make informed decisions and optimize your marketing strategies continuously.</p>
         
       </div>
       
-        <div class="flex  gap-4 justify-center items-center pb-8 px-[100px]">
-            <div class="w-[50%] space-y-8">
-            <div class=" flex  bg-[#FFFFFF] px-3 py-3 rounded-xl  gap-3">
-               <div class="flex justify-center pb-2">
+        <div class="flex lg:flex-row flex-col  gap-4 justify-center items-center pb-8 xl:px-[100px] lg:px-16  px-5">
+            <div class="lg:w-[50%] w-full space-y-8">
+            <div class=" flex justify-center items-center bg-[#FFFFFF] px-3 py-3 rounded-xl  gap-3">
+               <div>
                 <img src="./assets/img/tracking.png" alt="">
                </div>
                 <div class="text-start text-black ">
-                    <h1>Trade Tracking</h1>
-                    <p>Effortlessly document each trade, noting essential details including entry and exit points to refine trading strategies & optimize outcomes.</p>
+                    <h1 class="xl:text-2xl text-lg">Trade Tracking</h1>
+                    <p class="xl:text-base md:text-sm text-xs">Effortlessly document each trade, noting essential details including entry and exit points to refine trading strategies & optimize outcomes.</p>
                 </div>
             </div>
-            <div class=" flex  bg-[#FFFFFF] px-3 py-3 rounded-xl  gap-3">
-                <div class="flex justify-center pb-2">
+            <div class=" flex justify-center items-center bg-[#FFFFFF] px-3 py-3 rounded-xl  gap-3">
+                <div>
                  <img src="./assets/img/metrics.png" alt="">
                 </div>
                  <div class="text-start text-black ">
-                     <h1>Performance Metrics</h1>
-                     <p>Track essential metrics such as success rates, drawdowns, and profit/loss ratios, equipping you with the insights needed to enhance performance effectively.</p>
+                     <h1 class="xl:text-2xl text-lg">Performance Metrics</h1>
+                     <p class="xl:text-base md:text-sm text-xs">Track essential metrics such as success rates, drawdowns, and profit/loss ratios, equipping you with the insights needed to enhance performance effectively.</p>
                  </div>
              </div>
-             <div class=" flex  bg-[#FFFFFF] px-3 py-3 rounded-xl gap-3">
-                <div class="flex justify-center pb-2">
-                 <img src="./assets/img/metrics.png" alt="">
+             <div class=" flex justify-center items-center bg-[#FFFFFF] px-3 py-3 rounded-xl gap-3">
+                <div>
+                 <img src="./assets/img/goal.png" alt="">
                 </div>
                  <div class="text-start text-black ">
-                     <h1>Goal Setting</h1>
-                     <p>Establish and manage trading objectives to keep focus and drive motivation, maximizing the potential for consistent and sustainable success.</p>
+                     <h1 class="xl:text-2xl text-lg">Goal Setting</h1>
+                     <p class="xl:text-base md:text-sm text-xs">Establish and manage trading objectives to keep focus and drive motivation, maximizing the potential for consistent and sustainable success.</p>
                  </div>
              </div>
-             <div class=" flex  bg-[#FFFFFF] px-3 py-3 rounded-xl gap-3">
-                <div class="flex justify-center pb-2">
+             <div class=" flex justify-center items-center bg-[#FFFFFF] px-3 py-3 rounded-xl gap-3">
+                <div>
                  <img src="./assets/img/risk.png" alt="">
                 </div>
                  <div class="text-start text-black ">
-                     <h1>Risk Management</h1>
-                     <p>Utilize detailed insights from your trading patterns to strengthen risk management strategies, essential for ensuring your capital's safety.</p>
+                     <h1 class="xl:text-2xl text-lg">Risk Management</h1>
+                     <p class="xl:text-base md:text-sm text-xs">Utilize detailed insights from your trading patterns to strengthen risk management strategies, essential for ensuring your capital's safety.</p>
                  </div>
              </div>
            
@@ -161,7 +167,7 @@
            
             
           
-        <div class="w-[50%]">
+        <div class="lg:w-[50%] w-full">
 <img src="./assets/img/analysis.png" alt="">
         </div>
       </div>
@@ -183,8 +189,8 @@
 
 <section class="bg-black">
     <div class="text-white text-center pt-32 px-5 lg:px-10 xl:px-24" >
-        <h1 class="xl:text-5xl md:text-3xl text-3xl font-light"> See How the Trading<span class="text-[#BB0000] font-semibold">  Journal Works </span>  </h1>
-        <p class="xl:text-lg  text-base font-normal  leading-[40px] pt-4">Explore how our trading journal functions with a quick demo. These real-time walkthroughs illustrate the intuitive interface and powerful tools <br> available, designed to enhance your trading experience.</p>
+        <h1 class="xl:text-5xl md:text-3xl text-3xl font-light"> Step-by-Step Guide to <span class="text-[#BB0000] font-semibold">  Begin Effectively </span>  </h1>
+        <p class="xl:text-lg  text-base font-normal  leading-[40px] pt-4">Getting started is easy with our step-by-step guide. Follow these clear instructions to set up, log, analyze, and improve your trades seamlessly. With an intuitive interface and actionable insights, you'll be equipped to enhance your trading performance from day one.</p>
         
     </div>
 <div class="flex  lg:flex-row flex-col justify-center px-10 items-center gap-6 pt-6">
@@ -224,10 +230,10 @@
 </div>
 
 <div class="flex   md:flex-row flex-col  pt-32 px-6 text-white">
-    <div class="md:w-[50%] w-[100%] py-5 px-5">
-        <h1 class="xl:text-5xl md:text-3xl text-3xl font-light leading-tight md:text-start text-center"> Track Your Success with  <span class="text-[#BB0000] font-medium"> <br>  Detailed Metrics</span>  </h1>
-        <p class="text-sm font-normal leading-[40px] pt-4 md:text-start text-center ">Dive into advanced analytics with our sample charts, illustrating profit/loss trends, <br> success rates, and optimal trading periods. These powerful visualization tools <br> provide actionable insights, enabling you to identify patterns, refine strategies, and <br> make informed, data-driven decisions </p>
-        <p class="text-sm font-normal  leading-[40px] pt-4">ailored to enhance your success, our tools give you the clarity and confidence <br> needed to excel in your trading journey.</p>
+    <div class="md:w-[50%] w-[100%] py-5 px-5  md:text-start text-center">
+        <h1 class="xl:text-5xl md:text-3xl text-3xl font-light leading-tight"> Track Your Success with  <span class="text-[#BB0000] font-medium"> <br class="xl:block hidden">  Detailed Metrics</span>  </h1>
+        <p class="text-sm font-normal leading-[40px] pt-4  ">Dive into advanced analytics with our sample charts, illustrating profit/loss trends, <br class="xl:block hidden"> success rates, and optimal trading periods. These powerful visualization tools <br class="xl:block hidden"> provide actionable insights, enabling you to identify patterns, refine strategies, and <br class="xl:block hidden"> make informed, data-driven decisions </p>
+        <p class="text-sm font-normal  leading-[40px] pt-4 ">ailored to enhance your success, our tools give you the clarity and confidence <br class="xl:block hidden"> needed to excel in your trading journey.</p>
     </div>
     <div class="md:w-[50%] w-[100%] py-5 px-5">
 <img src="./assets/img/stepbystep.png" alt="">
@@ -241,48 +247,326 @@
 <section>
     <div class="text-black text-center pt-32 px-5 lg:px-10 xl:px-24" >
         <h1 class="xl:text-5xl md:text-3xl text-3xl font-light"> Leverage AI for  <span class="text-[#BB0000] font-semibold">  Smarter Trading </span> Decisions </h1>
-        <p class="xl:text-lg  text-base font-normal  leading-[40px] pt-4">Our journal employs cutting-edge AI technology to analyze your trade data, offering unique insights and actionable strategies you can <br> implement. Discover smarter ways to trade  with predictive analyses and personalized feedback based on <br> your historical performance.</p>
+        <p class="xl:text-lg  text-base font-normal  leading-[40px] pt-4">Our journal employs cutting-edge AI technology to analyze your trade data, offering unique insights and actionable strategies you can <br class="xl:block hidden"> implement. Discover smarter ways to trade  with predictive analyses and personalized feedback based on <br class="xl:block hidden"> your historical performance.</p>
         
     </div>
-    <div class="flex lg:flex-row flex-col justify-center px-10 py-10 gap-4 ">
-        <div class=" items-center text-center lg:w-[30%] w-full bg-[#FFFFFF] px-5 py-5 rounded-xl ">
+    <div class="flex lg:flex-row flex-col justify-center  px-10 py-10 gap-4 ">
+        <div class=" items-center text-center lg:w-[30%] w-full bg-[#FFFFFF] px-5 py-5 rounded-[30px] ">
+           <div class="flex justify-center pb-4">
             <img src="./assets/img/market.png" alt="">
+           </div>
             <h1 class="font-bold">Market Timing Optimization</h1>
             <p>AI analysis reveals peak profitability during early market hours. Focus on trading within this timeframe to enhance your returns.</p>
         </div>
-        <div class=" items-center text-center lg:w-[30%] w-full bg-[#FFFFFF] px-5 py-5 rounded-xl ">
-            <img src="./assets/img/market.png" alt="">
-            <h1 class="font-bold">Market Timing Optimization</h1>
-            <p>AI analysis reveals peak profitability during early market hours. Focus on trading within this timeframe to enhance your returns.</p>
+        <div class=" items-center text-center lg:w-[30%] w-full bg-[#FFFFFF] px-5 py-5 rounded-[30px] ">
+          <div class="flex justify-center pb-4">
+            <img src="./assets/img/patren.png" alt="">
+           </div>
+            <h1 class="font-bold">Pattern Recognition</h1>
+            <p>The AI identifies XYZ pattern as a successful trade catalyst. Employ this pattern as a signal for potential profitable trades.</p>
         </div>
-        <div class=" items-center text-center lg:w-[30%] w-full bg-[#FFFFFF] px-5 py-5 rounded-xl ">
-            <img src="./assets/img/market.png" alt="">
-            <h1 class="font-bold">Market Timing Optimizations</h1>
-            <p>AI analysis reveals peak profitability during early market hours. Focus on trading within this timeframe to enhance your returns.</p>
+        <div class=" items-center text-center lg:w-[30%] w-full bg-[#FFFFFF] px-5 py-5 rounded-[30px] ">
+          <div class="flex justify-center pb-4">
+            <img src="./assets/img/risk.png" alt="">
+           </div>
+            <h1 class="font-bold">Risk Analysis Consultation</h1>
+            <p>Your trades often exceed risk limits. AI advises adjusting trade sizes to align with your personalized risk tolerance.</p>
         </div>
         
        
     </div>
     <div class="flex lg:flex-row flex-col justify-center px-10 py-10 gap-4 ">
-        <div class=" items-center text-center lg:w-[30%] w-full bg-[#FFFFFF] px-5 py-5 rounded-xl ">
-            <img src="./assets/img/market.png" alt="">
-            <h1 class="font-bold">Market Timing Optimization</h1>
-            <p>AI analysis reveals peak profitability during early market hours. Focus on trading within this timeframe to enhance your returns.</p>
+        <div class=" items-center text-center lg:w-[30%] w-full bg-[#FFFFFF] px-5 py-5 rounded-[30px] ">
+          <div class="flex justify-center pb-4">
+            <img src="./assets/img/perfomance.png" alt="">
+           </div>
+            <h1 class="font-bold">Performance Enhancement</h1>
+            <p>14% success rate improvement occurs when trading trends align with indicators. Optimize strategies to leverage these conditions.</p>
         </div>
-        <div class=" items-center text-center lg:w-[30%] w-full bg-[#FFFFFF] px-5 py-5 rounded-xl ">
-            <img src="./assets/img/market.png" alt="">
-            <h1 class="font-bold">Market Timing Optimization</h1>
-            <p>AI analysis reveals peak profitability during early market hours. Focus on trading within this timeframe to enhance your returns.</p>
+        <div class=" items-center text-center lg:w-[30%] w-full bg-[#FFFFFF] px-5 py-5 rounded-[30px] ">
+          <div class="flex justify-center pb-4">
+            <img src="./assets/img/emo.png" alt="">
+           </div>
+            <h1 class="font-bold">Emotional Bias Indication</h1>
+            <p>Emotional trading detected post-losses. AI recommends implementing a cooldown to enhance decision-making clarity.</p>
         </div>
-        <div class=" items-center text-center lg:w-[30%] w-full bg-[#FFFFFF] px-5 py-5 rounded-xl ">
-            <img src="./assets/img/market.png" alt="">
-            <h1 class="font-bold">Market Timing Optimization</h1>
-            <p>AI analysis reveals peak profitability during early market hours. Focus on trading within this timeframe to enhance your returns.</p>
+        <div class=" items-center text-center lg:w-[30%] w-full bg-[#FFFFFF] px-5 py-5 rounded-[30px] ">
+          <div class="flex justify-center pb-4">
+            <img src="./assets/img/stoplose.png" alt="">
+           </div>
+            <h1 class="font-bold">Stop-Loss Optimization</h1>
+            <p>Early stop-loss triggers in volatile markets identified. AI suggests adjustments to improve profit retention efficiency.</p>
         </div>
         
        
     </div>
 </section>
+
+<!-- slider -->
+<section class="bg-black">
+  <div class="text-white text-center pt-32 px-5 lg:px-10 xl:px-24" >
+    <h1 class="xl:text-5xl md:text-3xl text-3xl font-light"> What Traders Are <span class="text-[#BB0000] font-semibold">   Saying  </span> Decisions </h1>
+    <p class="xl:text-lg  text-base font-normal  leading-[40px] pt-4">Hear directly from our users about how the trading journal has revolutionized their approach to trading.</p>
+    
+</div>
+
+  <!-- Swiper Container -->
+  <div class="swiper-container w-full  mx-auto pb-10 px-4 md:px-8 lg:px-10">
+    <!-- Swiper Wrapper -->
+    <div class="swiper-wrapper">
+
+      <!-- Slide 1 -->
+      <div class="swiper-slide p-4 md:p-6 rounded-lg text-white">
+        <div class="text-center space-y-4">
+          <!-- Responsive Image Row -->
+          <div class="mt-4 flex justify-center items-center gap-2 sm:gap-4 md:gap-6 w-full">
+            <div class="">
+              <img src="./assets/img/slide1.png" alt="Image 1" class="w-full h-auto">
+            </div>
+            <div class="">
+              <img src="./assets/img/slide1.png" alt="Image 2" class="w-full h-auto">
+            </div>
+            <div class="">
+              <img src="./assets/img/slide1.png" alt="Image 3" class="w-full h-auto">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide p-4 md:p-6 rounded-lg text-white">
+        <div class="text-center space-y-4">
+          <!-- Responsive Image Row -->
+          <div class="mt-4 flex justify-center items-center gap-2 sm:gap-4 md:gap-6 w-full">
+            <div class="">
+              <img src="./assets/img/slide1.png" alt="Image 1" class="w-full h-auto">
+            </div>
+            <div class="">
+              <img src="./assets/img/slide1.png" alt="Image 2" class="w-full h-auto">
+            </div>
+            <div class="">
+              <img src="./assets/img/slide1.png" alt="Image 3" class="w-full h-auto">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide p-4 md:p-6 rounded-lg text-white">
+        <div class="text-center space-y-4">
+          <!-- Responsive Image Row -->
+          <div class="mt-4 flex justify-center items-center gap-2 sm:gap-4 md:gap-6 w-full">
+            <div class="">
+              <img src="./assets/img/slide1.png" alt="Image 1" class="w-full h-auto">
+            </div>
+            <div class="">
+              <img src="./assets/img/slide1.png" alt="Image 2" class="w-full h-auto">
+            </div>
+            <div class="">
+              <img src="./assets/img/slide1.png" alt="Image 3" class="w-full h-auto">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Access for every trader section -->
+<section class="bg-[#010109]">
+  <div class="xl:px-24 lg:px-16 px-5 pb-10">
+  <div class="w-full flex flex-col lg:flex-row xl:gap-36 lg:gap-12 items-center text-white">
+    <div class=" lg:w-3/5 pt-32 md:text-start text-center">
+      <h1 class="md:text-4xl text-4xl font-light">
+        Unlock Tailored Access for <span class="text-[#BB0000] font-medium"> Every Trader</span>
+      </h1>
+      <p class="text-lg leading-[40px] pt-6">
+        Select an access plan that perfectly matches your trading requirements. From beginners taking their first steps in the trading arena to seasoned professionals seeking cutting-edge tools, our flexible pricing tiers accommodate all levels of experience and ambition.
+      </p>
+    </div>
+    <div class="lg:w-2/5 md:flex justify-center">
+      <img src="./assets/img/mobilepic.png" alt="">
+    </div>
+  </div>
+
+<div class="space-y-8 pt-8 md:pt-0">
+
+  <!-- premium accout -->
+
+  <div class="flex-col flex md:flex-row justify-between md:items-center md:gap-4  lg:gap-20 bg-[#12121D] pl-10 py-2 pr-2 rounded-3xl "> 
+    <div>
+      <h1 class="xl:text-[32px] text-xl font-medium md:font-normal text-white">Premium Account</h1>
+        <div class="flex-col flex md:flex-row 2xl:gap-24 xl:gap-16 md:gap-8 xl:pt-4 md:pt-2">
+        <div class="flex gap-4 items-center pt-2 md:pt-0">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal text-white">Tight spreads from 0.7 pips</p>
+        </div>
+        <div class="flex gap-4 items-center pt-2 md:pt-0">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal text-white">Priority market analyst support</p>
+        </div>
+        <div class="flex gap-4 items-center pt-2 md:pt-0">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal text-white">Full suite of trading tools</p>
+        </div>
+      </div>
+      
+        <div class="flex gap-4 items-center md:pt-4 pt-2">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal text-white">Minimum Deposit: $5,000</p>
+      </div>
+    </div>
+    <div class=" md:text-start text-center pt-4 md:pt-0">
+      <button class="bg-[#0D0D15] hover:bg-[#BB0000] text-white xl:px-14 md:px-6 xl:py-20 md:py-6 px-8 py-2 rounded-xl text-lg font-medium">Sign Up</button>
+    </div>
+  </div>
+
+  <!-- elite account -->
+
+  <div class="flex-col flex md:flex-row justify-between md:items-center md:gap-4 lg:gap-0 bg-[#12121D]  pl-10 py-2 pr-2 rounded-3xl "> 
+    <div>
+      <h1 class="xl:text-[32px] text-xl font-medium md:font-normal text-white">Elite Account</h1>
+        <div class="flex-col flex md:flex-row 2xl:gap-24 xl:gap-16 md:gap-8 xl:pt-4 md:pt-2">
+        <div class="flex gap-4 items-center pt-2 md:pt-0">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal text-white">Ultra-low spreads from 0.3 pips</p>
+        </div>
+        <div class="flex gap-4 items-center pt-2 md:pt-0">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal text-white">Exclusive account manager services</p>
+        </div>
+        <div class="flex gap-4 items-center pt-2 md:pt-0">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal text-white">VIP access to webinars and events</p>
+        </div>
+      </div>
+      
+        <div class="flex gap-4 items-center md:pt-4 pt-2">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal text-white">Tight spreads from 0.7 pips</p>
+      </div>
+    </div>
+    <div class=" md:text-start text-center pt-4 md:pt-0">
+      <button class="bg-[#0D0D15] hover:bg-[#BB0000] text-white xl:px-14 md:px-6 xl:py-20 md:py-6 px-8 py-2 rounded-xl text-lg font-medium">Sign Up</button>
+    </div>
+  </div>
+
+  <!-- vip account -->
+
+  <div class="flex-col flex md:flex-row justify-between md:items-center md:gap-4 lg:gap-0 bg-[#12121D]  pl-10 py-2 pr-2 rounded-3xl "> 
+    <div>
+      <h1 class="xl:text-[32px] text-xl font-medium md:font-normal text-white">VIP Account</h1>
+        <div class="flex-col flex md:flex-row 2xl:gap-24 xl:gap-16 md:gap-8 xl:pt-4 md:pt-2">
+        <div class="flex gap-4 items-center pt-2 md:pt-0">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal text-white">Near-zero spreads from 0.1 pips</p>
+        </div>
+        <div class="flex gap-4 items-center pt-2 md:pt-0">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal text-white">Dedicated team of trading experts</p>
+        </div>
+        <div class="flex gap-4 items-center pt-2 md:pt-0">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal text-white">Personalized trading strategies</p>
+        </div>
+      </div>
+      
+        <div class="flex gap-4 items-center md:pt-4 pt-2">
+          <img src="./assets/img/sighn.png" alt="">
+          <p class="xl:text-lg md:text-sm font-normal text-white">Minimum Deposit: $50,00</p>
+      </div>
+    </div>
+    <div class=" md:text-start text-center pt-4 md:pt-0">
+      <button class="bg-[#0D0D15] hover:bg-[#BB0000] text-white xl:px-14 md:px-6 xl:py-20 md:py-6 px-8 py-2 rounded-xl text-lg font-medium">Sign Up</button>
+    </div>
+  </div>
+
+  </div>
+
+</section>
+  
+<!-- FAQs -->
+
+<section >
+  <div class="xl:px-24 px-5 text-center xl:pt-36 pt-10">
+    <h1 class="2xl:text-6xl md:text-4xl text-2xl font-light 2xl:leading-[92px] md:leading-[70px] leading-10">Explore Program <span class="font-medium text-[#BB0000]"> Specifications</span></h1>
+    <p class="xl:text-lg md:text-base text-sm ">Get comprehensive insights into our Affiliate Program through detailed sections covering our terms and conditions, commission structures, and guidelines.</p>
+  </div>
+
+  <div class="accordion py-20 xl:px-32 px-5 lgpx-10">
+    <div class="accordion__item">
+      <div class="accordion__header 2xl:text-3xl text-lg" data-toggle="#faq1">How do I set up my trading journal?</div>
+      <div class="accordion__content" id="faq1">
+        <p class="2xl:text-xl text-base 2xl:leading-10 leading-8 text-[#010109] py-4">We’re seeking dedicated partners who are motivated to achieve growth and success. Explore the essential criteria for joining our affiliate program and discover the extensive resources, tools, and support we provide to help you thrive. With our guidance and your ambition, we aim to build a partnership that drives mutual success and long-term growth.</p>
+      </div>
+    </div>
+
+    <div class="accordion__item">
+      <div class="accordion__header 2xl:text-3xl text-lg" data-toggle="#faq2">What types of metrics does the journal track?</div>
+      <div class="accordion__content" id="faq2">
+        <p class="2xl:text-xl text-base 2xl:leading-10 leading-8 text-[#010109] py-4">We’re seeking dedicated partners who are motivated to achieve growth and success. Explore the essential criteria for joining our affiliate program and discover the extensive resources, tools, and support we provide to help you thrive. With our guidance and your ambition, we aim to build a partnership that drives mutual success and long-term growth.</p>
+      
+      </div>
+    </div>
+
+    <div class="accordion__item">
+      <div class="accordion__header 2xl:text-3xl text-lg" data-toggle="#faq3">Can I integrate my trading platform with the journal?</div>
+      <div class="accordion__content" id="faq3">
+        <p class="2xl:text-xl text-base 2xl:leading-10 leading-8 text-[#010109] py-4">We’re seeking dedicated partners who are motivated to achieve growth and success. Explore the essential criteria for joining our affiliate program and discover the extensive resources, tools, and support we provide to help you thrive. With our guidance and your ambition, we aim to build a partnership that drives mutual success and long-term growth.</p>
+        
+      </div>
+    </div>
+    <div class="accordion__item">
+      <div class="accordion__header 2xl:text-3xl text-lg" data-toggle="#faq4">What support options are available?</div>
+      <div class="accordion__content" id="faq4">
+        <p class="2xl:text-xl text-base 2xl:leading-10 leading-8 text-[#010109] py-4">We’re seeking dedicated partners who are motivated to achieve growth and success. Explore the essential criteria for joining our affiliate program and discover the extensive resources, tools, and support we provide to help you thrive. With our guidance and your ambition, we aim to build a partnership that drives mutual success and long-term growth.</p>
+        
+      </div>
+    </div>
+
+  </div>
+
+
+</section>
+
+<section class="bg-black">
+  <div class="xl:px-24 px-5 text-center xl:py-20 py-10 text-white">
+    <h1 class="2xl:text-6xl md:text-4xl text-2xl font-light 2xl:leading-[92px] md:leading-[70px] leading-10">Start Using <span class="font-medium text-[#BB0000]">  Lock It Trade</span></h1>
+    <p class="xl:text-lg md:text-base text-sm ">Ready to elevate your trading? Click here to set up your account and start leveraging our cutting-edge journal for <br class="xl:block hidden"> improved performance and strategic insights.</p>
+    <div class="flex justify-center pt-4" >
+      <button class="bookmarkBtn9">
+        <p class="text9">Start now</p>
+        <span class="IconContainer9">
+          <img src="./assets/img/Icon.png" alt="">
+        </span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+<footer>
+  <div class="bg-white 2xl:px-24 md:px-10 px-5 py-10">
+    <div class="flex lg:flex-row flex-col items-center justify-between text-center lg:text-start">
+      <div>
+        <img src="./assets/img/footerlogo.png" alt="">
+      </div>
+      <div class="space-x-6 pt-5 lg:pt-0">
+        <a class="text-18 font-medium hover:underline" href="">Support</a>
+        <a class="text-18 font-medium hover:underline" href="">Terms of services</a>
+        <a class="text-18 font-medium hover:underline" href="">Risk Disclosure</a>
+        <a class="text-18 font-medium hover:underline" href="">Cookies Policy</a>
+      </div>
+      <div>
+        <p class="pt-2 lg:pt-0">© 2024 Restro Fx</p>
+      </div>
+    </div>
+    <div class="pt-8 text-center lg:text-start 2xl:text-sm text-xs 2xl:leading-[30px] leading-[20px]">
+      <p>This website is not directed towards any specific jurisdiction and is not intended for use in violation of any local laws or regulations.</p>
+      <p>Risk Warning: Trading leveraged products such as forex, commodities, and CFDs involves a high level of risk and may not be suitable for all investors. These products can lead to losses that exceed your initial deposit. Ensure that you fully understand the risks associated with trading, taking into consideration your investment objectives and experience level. If necessary, seek independent financial advice before engaging in any trading activity.</p>
+    </div>
+  </div>
+</footer>
 
     <!-- navbar -->
     <script>
@@ -295,5 +579,49 @@
           mobileMenu.classList.toggle("hidden");
         });
       </script>
+
+      <!-- slider -->
+
+      <script>
+        const swiper = new Swiper(".swiper-container", {
+          loop: true, // Infinite loop
+          spaceBetween: 30, // Gap between slides
+          centeredSlides: true,
+          autoplay: {
+            delay: 3000, // Auto-scroll every 3 seconds
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+
+      <!-- FAQs -->
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+const togglers = document.querySelectorAll('[data-toggle]');
+
+togglers.forEach((btn) => {
+  btn.addEventListener('click', (e) => {
+     const selector = e.currentTarget.dataset.toggle
+     const block = document.querySelector(`${selector}`);
+    if (e.currentTarget.classList.contains('active')) {
+      block.style.maxHeight = '';
+    } else {
+      block.style.maxHeight = block.scrollHeight + 'px';
+    }
+      
+     e.currentTarget.classList.toggle('active')
+  })
+})
+})
+      </script>      
+
 </body>
 </html>
